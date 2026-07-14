@@ -1,0 +1,8 @@
+# 関係者配布用のオフラインビルド設定
+# 使い方: mkdocs build -f mkdocs-offline.yml
+INHERIT: ./mkdocs.yml
+site_url: ""
+plugins:
+  - search:
+      lang: ja
+  - offline

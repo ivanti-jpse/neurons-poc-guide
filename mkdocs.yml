@@ -1,0 +1,57 @@
+site_name: Ivanti Neurons Platform - POCガイド
+site_description: Ivanti Neurons Platform の設定・POCガイド
+site_url: https://ivanti-jpse.github.io/neurons-poc-guide/
+
+theme:
+  name: material
+  language: ja
+  palette:
+    # Ivantiブランドカラーは extra.css で上書き(custom を指定)
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - ホーム: index.md
+  - 初期設定:
+      - エージェントのインストール: neurons/agent-install.md
+  - POC 検証項目:
+      - エージェントのインストール: checklist/agent-install.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.keys
+
+plugins:
+  - search:
+      lang: ja

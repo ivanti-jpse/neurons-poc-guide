@@ -1,0 +1,18 @@
+# 単一HTMLファイル出力用の設定
+# 使い方: mkdocs build -f mkdocs-singlefile.yml --site-dir site-single
+INHERIT: ./mkdocs.yml
+site_url: ""
+use_directory_urls: false
+plugins:
+  - search:
+      lang: ja
+  - print-site:
+      add_to_navigation: false
+      print_page_title: "Ivanti Neurons Platform - POCガイド"
+      add_cover_page: true
+      cover_page_template: ""
+      add_table_of_contents: true
+      toc_title: "目次"
+      toc_depth: 2
+      enumerate_headings: false
+      include_css: true
