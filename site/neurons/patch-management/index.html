@@ -1,0 +1,1273 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ivanti Neurons Platform の設定・POCガイド">
+      
+      
+      
+        <link rel="canonical" href="https://ivanti-jpse.github.io/neurons-poc-guide/neurons/patch-management/">
+      
+      
+        <link rel="prev" href="../agent-install/">
+      
+      
+        <link rel="next" href="../../checklist/agent-install/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Patch Management - Ivanti Neurons Platform - POCガイド</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ivanti-neurons-for-patch-management" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../.." title="Ivanti Neurons Platform - POCガイド" class="md-header__button md-logo" aria-label="Ivanti Neurons Platform - POCガイド" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ivanti Neurons Platform - POCガイド
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Patch Management
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="ダークモードに切り替え"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="ダークモードに切り替え" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="ライトモードに切り替え"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="ライトモードに切り替え" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  ホーム
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../agent-install/" class="md-tabs__link">
+          
+  
+  
+  初期設定
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../checklist/agent-install/" class="md-tabs__link">
+          
+  
+  
+  POC 検証項目
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ivanti Neurons Platform - POCガイド" class="md-nav__button md-logo" aria-label="Ivanti Neurons Platform - POCガイド" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Ivanti Neurons Platform - POCガイド
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ホーム
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    初期設定
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    初期設定
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agent-install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    エージェントのインストール
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patch Management
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patch Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        前提条件
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        全体ワークフロー
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        手順本体
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="手順本体">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. パッチ設定(定期メンテナンス)の作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. エージェント ポリシーでパッチ機能を有効化
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. エージェント管理ページでのポリシー反映確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. パッチ管理 &gt; エンドポイントの脆弱性でリスクスコアを確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-patch-intelligence-vrr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Patch Intelligence で個々のパッチの信頼性・VRR を確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. スケジュールパッチの実行結果確認(翌日)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 手動パッチ(デバイスビューからの個別配布)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-67" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 配布履歴で手順6・7の結果を確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. レポートの作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        手順後の確認
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="手順後の確認">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        コンソール側
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        エンドポイント側
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        トラブルシューティングの入口
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    POC 検証項目
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    POC 検証項目
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checklist/agent-install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    エージェントのインストール
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checklist/patch-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patch Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        前提条件
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        全体ワークフロー
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        手順本体
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="手順本体">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. パッチ設定(定期メンテナンス)の作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. エージェント ポリシーでパッチ機能を有効化
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. エージェント管理ページでのポリシー反映確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. パッチ管理 &gt; エンドポイントの脆弱性でリスクスコアを確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-patch-intelligence-vrr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Patch Intelligence で個々のパッチの信頼性・VRR を確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. スケジュールパッチの実行結果確認(翌日)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 手動パッチ(デバイスビューからの個別配布)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-67" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 配布履歴で手順6・7の結果を確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. レポートの作成
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        手順後の確認
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="手順後の確認">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        コンソール側
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        エンドポイント側
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        トラブルシューティングの入口
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ivanti-neurons-for-patch-management">Ivanti Neurons for Patch Management の初期設定〜検証</h1>
+<p>Ivanti Neurons for Patch Management は、クラウドネイティブなパッチ適用ソリューションです。本ページでは、パッチ設定(スケジュール)の作成からエージェント ポリシーへの反映、脆弱性・Patch Intelligence の確認、手動/スケジュールパッチの実行結果確認、レポート作成までの一連の POC フローを解説します。</p>
+<div class="admonition info">
+<p class="admonition-title">参照元</p>
+<p>本手順は Ivanti 公式ドキュメント(日本語版)に基づいています。最新情報は以下を参照してください。</p>
+<ul>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/patch-getting-started.htm">パッチ管理の基本操作</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/patch-management.htm">パッチ管理</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/patching-settings.htm">パッチ設定</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/patch-configuration-behavior.htm">構成動作</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/endpoint-vulnerability.htm">エンドポイントの脆弱性</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/patch-intelligence.htm">Patch Intelligence</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/patchintell-details.htm">パッチ詳細</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/deployment-history.htm">配布履歴</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/device-details.htm">デバイス詳細</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/reports.htm">レポート</a></li>
+<li><a href="https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/agent-policies.htm">エージェント ポリシー</a></li>
+</ul>
+</div>
+<hr />
+<h2 id="_1">前提条件</h2>
+<ul>
+<li><strong>Neurons Agent がインストール済みであること</strong> — パッチのスキャン・配布は管理対象デバイスにインストールされた Neurons Agent が実行します。未導入の場合は <a href="../agent-install/">エージェントのインストール</a> を先に実施してください。</li>
+<li><strong>パッチ管理の権限があること</strong> — パッチの配布には、ロールの権限設定(<strong>[管理] &gt; [アクセス コントロール] &gt; [ロール] &gt; [権限] &gt; [グローバル アクション] &gt; [パッチの配布]</strong>)が必要です。</li>
+<li><strong>Windows Update サービスが有効であること</strong> — Neurons Agent 経由での配布を成功させるには、対象デバイスの Windows Update サービスを「無効」ではなく「手動」または「自動」に設定し、Windows Update の設定を「更新プログラムを確認しない」にしておく必要があります。</li>
+<li><strong>必須 URL への通信が許可されていること</strong> — ファイアウォールやプロキシの許可リストに、サードパーティ ベンダのパッチ コンテンツをダウンロードするための URL を追加しておく必要があります。詳細は日本語版ヘルプの「必須の URL、IP アドレス、ポート」を参照してください。</li>
+</ul>
+<hr />
+<h2 id="_2">全体ワークフロー</h2>
+<p>パッチ管理のクラウド ワークフローは、次の流れで構成されます。</p>
+<pre class="mermaid"><code>graph LR
+  A[1. パッチ設定の作成] --&gt; B[2. エージェント ポリシーで&lt;br&gt;パッチ機能を有効化] --&gt; C[3. デバイスへの反映確認] --&gt; D[4. 脆弱性/Patch Intelligence確認] --&gt; E[5. パッチ配布&lt;br&gt;スケジュール/手動] --&gt; F[6. 配布履歴・レポートで結果確認]</code></pre>
+<p>以降、この流れに沿って POC 環境での操作手順を解説します。</p>
+<hr />
+<h2 id="_3">手順本体</h2>
+<h3 id="1">1. パッチ設定(定期メンテナンス)の作成</h3>
+<p><strong>[パッチ管理] &gt; [パッチ設定]</strong> の <strong>[構成]</strong> タブで、<strong>[構成を作成]</strong> をクリックし、新しいパッチ構成を作成します。</p>
+<ol>
+<li><strong>構成名</strong> を入力します(例: <code>POCガイド_定期メンテナンス</code>)。</li>
+<li><strong>[構成動作]</strong> タブの <strong>Windows 配布の動作</strong> で、<strong>[定期メンテナンス]</strong> がオンになっていることを確認します。</li>
+<li><strong>[このタスクを構成]</strong> をクリックし、スケジュールを設定します。<ul>
+<li><strong>パッチの配布</strong>: 翌日の配布結果を確認する POC の場合は <strong>[日単位]</strong> を選択し、<strong>[配布]</strong> に当日中の任意の時刻(例: <code>23:00</code>)を指定します。次回のチェックイン時に配布が開始され、翌日には配布履歴で結果を確認できます。</li>
+<li><strong>[配布前にコンテンツをステージング]</strong> は既定のままで問題ありません。</li>
+</ul>
+</li>
+<li>画面右上の <strong>[保存してアクティブにする]</strong> をクリックします。</li>
+</ol>
+<p>保存直後は <strong>可用性</strong> が <strong>[保留中]</strong> と表示されます。これは手順2でエージェント ポリシーに関連付けるまでの状態で、関連付け後に <strong>[アクティブ]</strong> に変わります。</p>
+<h3 id="2">2. エージェント ポリシーでパッチ機能を有効化</h3>
+<p><strong>[エージェント] &gt; [エージェント ポリシー]</strong> で、対象デバイスに割り当てられているポリシーを開き、<strong>[編集]</strong> をクリックします。</p>
+<ol>
+<li><strong>[機能]</strong> タブの <strong>[パッチ管理]</strong> カードが有効(チェック済み)になっていることを確認します。未設定の場合はチェックを入れます。</li>
+<li><strong>[パッチ管理]</strong> カード内の <strong>構成</strong> ドロップダウンから、手順1で作成した構成(例: <code>POCガイド_定期メンテナンス</code>)を選択します。</li>
+<li>画面右上の <strong>[保存]</strong> をクリックします。</li>
+</ol>
+<p>保存すると <strong>バージョン</strong> が1つ繰り上がります。エージェント設定変更は、次回対象デバイスが Ivanti Neurons にチェックインしたタイミングで反映されます。</p>
+<div class="admonition tip">
+<p class="admonition-title">検証に使うポリシーの選び方</p>
+<p>POC では、実際にエージェント エンドポイントが割り当てられているポリシー(<strong>[エージェント ポリシー]</strong> 一覧の <strong>エージェント エンドポイント</strong> 列が1台以上のもの)を選ぶと、手順3以降の反映確認・配布結果確認まで一気通貫で実演できます。0台のポリシーを編集しても、反映先のデバイスがないため確認できません。</p>
+</div>
+<h3 id="3">3. エージェント管理ページでのポリシー反映確認</h3>
+<p><strong>[エージェント] &gt; [エージェント ポリシー]</strong> で対象ポリシーを開き、<strong>[エージェント エンドポイント]</strong> タブを確認します。</p>
+<ul>
+<li>対象デバイスが一覧に表示され、<strong>ステータス</strong> が <strong>[アクティブ]</strong> であることを確認します。</li>
+<li><strong>正常性</strong> 列のインジケータ(緑=良い、黄=標準、赤=悪い、灰=不明)で、デバイスの現在の状態を確認できます。</li>
+</ul>
+<p>デバイスがまだ新しいポリシーをチェックインしていない場合、一覧への反映や正常性の更新に数分〜次回チェックイン分のタイムラグが生じることがあります。</p>
+<h3 id="4">4. パッチ管理 &gt; エンドポイントの脆弱性でリスクスコアを確認</h3>
+<p><strong>[パッチ管理] &gt; [エンドポイントの脆弱性]</strong> に移動します。</p>
+<ul>
+<li>画面上部のチャート(<strong>デバイスの正常性</strong>、<strong>前回のスキャン</strong>、<strong>リスク別デバイス</strong>)で、環境全体の傾向を確認します。</li>
+<li>下部のデバイス一覧の <strong>リスク スコア</strong> 列で、各デバイスの脆弱性リスクを確認します。スコアは0〜100の範囲で、100 に近いほどリスクが高くなります。<ul>
+<li>赤 = 悪い(70 以上)</li>
+<li>黄 = 標準(40〜69)</li>
+<li>緑 = 良い(40 未満)</li>
+</ul>
+</li>
+<li><strong>未適用のパッチ</strong> 列の数字をクリックすると、そのデバイスで未適用のパッチの詳細を確認できます。</li>
+</ul>
+<h3 id="5-patch-intelligence-vrr">5. Patch Intelligence で個々のパッチの信頼性・VRR を確認</h3>
+<p><strong>[パッチ管理] &gt; [Patch Intelligence]</strong> に移動し、<strong>[アドバイザリ]</strong> タブで <strong>[環境に影響]</strong> トグルをオンにすると、自環境に関連するパッチのみに絞り込めます。</p>
+<p>一覧からパッチ名をクリックすると、パッチ詳細ページで以下の情報を確認できます。</p>
+<ul>
+<li><strong>ベンダ重要度</strong>(例: セキュリティ:重大)</li>
+<li><strong>VRR</strong>(脆弱性リスク評価。0〜10のスコアで、数値が大きいほどリスクが高い)</li>
+<li><strong>報告された問題</strong>、<strong>影響を受ける製品</strong> 数</li>
+<li><strong>[CVE]</strong> タブでは、パッチに含まれる CVE ごとの <strong>VRR グループ</strong>・<strong>VRR スコア</strong>・<strong>CVSS スコア</strong>・エクスプロイトの有無を確認できます。</li>
+</ul>
+<h3 id="6">6. スケジュールパッチの実行結果確認(翌日)</h3>
+<div class="admonition warning">
+<p class="admonition-title">翌日の待機が必要な手順</p>
+<p>本手順は、手順1で設定した定期メンテナンスのスケジュール配布が実際に実行された<strong>翌日</strong>に確認します。実施日にその場で結果を確認することはできないため、以下は確認方法と確認手順のみを記載します。</p>
+</div>
+<p>翌日以降、以下の手順で結果を確認してください。</p>
+<ol>
+<li><strong>[パッチ管理] &gt; [配布履歴]</strong> に移動します。</li>
+<li>一覧の <strong>デバイス名</strong> 列で対象デバイスを、<strong>配布構成</strong> 列で手順1のパッチ構成名を絞り込みます。</li>
+<li><strong>ステータス</strong> 列が <strong>[成功]</strong> であることを確認します。<strong>[保留中の再起動]</strong> や <strong>[再試行回数を使い切りました]</strong> 等が表示された場合は、<a href="#トラブルシューティングの入口">トラブルシューティングの入口</a> を参照してください。</li>
+<li><strong>[パッチ管理] &gt; [エンドポイントの脆弱性]</strong> で、対象デバイスの <strong>リスク スコア</strong> および <strong>未適用のパッチ</strong> 数が配布前より減少していることを確認します。</li>
+</ol>
+<h3 id="7">7. 手動パッチ(デバイスビューからの個別配布)</h3>
+<p><strong>[デバイス]</strong> ワークスペースまたは <strong>[パッチ管理] &gt; [エンドポイントの脆弱性]</strong> から対象デバイス名をクリックし、デバイス詳細ページの <strong>[パッチ]</strong> タブを開きます。</p>
+<ol>
+<li>一覧から配布したいパッチ(ステータスが未適用のもの)の行のチェックボックスを1つ選択します。</li>
+<li><strong>[パッチ アクション]</strong> メニューから <strong>[選択した未適用のパッチを配布する]</strong> を選択します。</li>
+<li>画面右上に「デバイスに配布する◯件のパッチを処理しています」という通知が表示され、対象パッチのステータスが <strong>[配布中]</strong> に変わることを確認します。</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">UI 表記の確認</p>
+<p>デバイス詳細の [パッチ] タブにおける未適用パッチのステータス表記は、実機では <strong>[不明]</strong> と表示されました。日本語版ヘルプ本文の表記(「未適用」)と一部異なるため、実際のテナント画面の表示に合わせて読み替えてください。</p>
+</div>
+<h3 id="8-67">8. 配布履歴で手順6・7の結果を確認</h3>
+<p><strong>[パッチ管理] &gt; [配布履歴]</strong> に移動し、一覧の <strong>パッチ名</strong>・<strong>デバイス名</strong> 列で、手順6(スケジュール配布)・手順7(手動配布)それぞれの対象を検索します。</p>
+<ul>
+<li>手動配布(手順7)は、実行直後は <strong>ステータス</strong> が <strong>[実行中]</strong> で表示され、完了後に <strong>[成功]</strong> または <strong>[失敗]</strong> に変わります。</li>
+<li>チャート <strong>[経時的なパッチ配布]</strong> で、選択した期間内の成功/失敗の推移を確認できます。</li>
+<li><strong>[失敗と警告の上位10]</strong> チャートで、失敗が発生している場合の主な原因を確認できます。</li>
+</ul>
+<h3 id="9">9. レポートの作成</h3>
+<p><strong>[パッチ管理] &gt; [レポート]</strong> に移動し、<strong>[新規レポートの作成]</strong> をクリックします。</p>
+<ol>
+<li><strong>ステップ1(レポートを選択)</strong>: 用意されたテンプレートから1つ選択します(例: <strong>デバイス (CVE 別) - 概要</strong>)。</li>
+<li><strong>ステップ2(レポートの詳細)</strong>: レポート名を入力し、出力形式(PDF / CSV / Excel)とスケジュール(オンデマンドのみ / 繰り返されるスケジュール)を選択します。</li>
+<li><strong>ステップ3(フィルタ)</strong>: 対象とする CVE・デバイスの範囲を指定します(POC では「すべての CVE」「すべてのデバイス」で問題ありません)。</li>
+<li><strong>ステップ4(レポートを共有)</strong>: 必要に応じて共有先メールアドレスを指定し、<strong>[レポートを送信]</strong> をクリックします。</li>
+</ol>
+<p>作成が完了すると、レポート一覧の <strong>ステータス</strong> が <strong>[完了]</strong> に変わり、ダウンロードできるようになります。生成には数分〜データ量に応じた時間がかかります。</p>
+<hr />
+<h2 id="_4">手順後の確認</h2>
+<h3 id="_5">コンソール側</h3>
+<ul>
+<li><strong>[パッチ管理] &gt; [パッチ設定]</strong> の構成一覧で、対象構成の <strong>可用性</strong> が <strong>[アクティブ]</strong>、<strong>関連する</strong> が <strong>[はい]</strong> になっていることを確認します。</li>
+<li><strong>[パッチ管理] &gt; [配布履歴]</strong> で、対象デバイスの配布結果が <strong>[成功]</strong> であることを確認します。</li>
+<li><strong>[パッチ管理] &gt; [エンドポイントの脆弱性]</strong> で、対象デバイスの <strong>未適用のパッチ</strong> 数・<strong>リスク スコア</strong> が配布前より改善していることを確認します。</li>
+</ul>
+<h3 id="_6">エンドポイント側</h3>
+<ul>
+<li>対象デバイスのタスクマネージャーで、Neurons Agent 関連プロセス(<code>STAgent</code> / <code>STDownloader</code> / <code>STDispatch</code>)が動作していることを確認します。</li>
+<li>配布したパッチが「プログラムと機能」または該当アプリケーションのバージョン情報から実際にインストールされていることを確認します。</li>
+</ul>
+<hr />
+<h2 id="_7">トラブルシューティングの入口</h2>
+<table>
+<thead>
+<tr>
+<th>症状</th>
+<th>最初に確認すること</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>パッチ構成が「保留中」のまま「アクティブ」にならない</td>
+<td>エージェント ポリシーの [パッチ管理] 機能に、対象の構成が関連付けられているか</td>
+</tr>
+<tr>
+<td>配布ステータスが「保留中の再起動」のまま進まない</td>
+<td>デバイスの再起動が実行されているか。エージェント ポリシーの [再起動エクスペリエンス] 設定</td>
+</tr>
+<tr>
+<td>配布ステータスが「再試行回数を使い切りました」</td>
+<td>[パッチ結果] 列のエラーコードを確認し、対応後に対象デバイスで [再試行回数のリセット] を実行</td>
+</tr>
+<tr>
+<td>デバイスにポリシー変更が反映されない</td>
+<td>デバイスが Ivanti Neurons にチェックインしているか(オフライン・通信不可でないか)</td>
+</tr>
+<tr>
+<td>パッチ配布の権限がなく操作できない</td>
+<td>[管理] &gt; [アクセス コントロール] &gt; [ロール] &gt; [権限] &gt; [グローバル アクション] &gt; [パッチの配布] が付与されているか</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div class="admonition abstract">
+<p class="admonition-title">POC 検証項目</p>
+<p>本ページに対応する検証項目の一覧は、<a href="../../checklist/patch-management/">POC 検証項目</a> タブを参照してください。</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

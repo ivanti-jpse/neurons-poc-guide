@@ -32,10 +32,27 @@ extra_css:
 
 nav:
   - ホーム: index.md
-  - 初期設定:
+  - 前提条件:
+      - ネットワーク要件: prerequisites/network-requirements.md
+      - プラットフォーム要件: prerequisites/platform-requirements.md
+      - パッチ要件: prerequisites/patch-requirements.md
+      - ブラウザ要件: prerequisites/browser-requirements.md
+  - 設定手順:
       - エージェントのインストール: neurons/agent-install.md
+      - パッチ管理: neurons/patch-management.md
+      - リモート コントロール: neurons/remote-control.md
+      - アプリの配布: neurons/app-distribution.md
+      - Edge Intelligence: neurons/edge-intelligence.md
+      - ボット: neurons/bots.md
+      - エージェントのアンインストール: neurons/agent-uninstall.md
   - POC 検証項目:
       - エージェントのインストール: checklist/agent-install.md
+      - パッチ管理: checklist/patch-management.md
+      - リモート コントロール: checklist/remote-control.md
+      - アプリの配布: checklist/app-distribution.md
+      - Edge Intelligence: checklist/edge-intelligence.md
+      - ボット: checklist/bots.md
+      - エージェントのアンインストール: checklist/agent-uninstall.md
 
 markdown_extensions:
   - admonition

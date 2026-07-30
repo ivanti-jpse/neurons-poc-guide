@@ -30,9 +30,61 @@
 - ガイド本文: `docs/<カテゴリ>/<機能名>.md`(例: `docs/neurons/agent-install.md`)
 - 検証項目: `docs/checklist/<機能名>.md`(**カテゴリ名は含めず、機能名のみ**。例: `docs/checklist/agent-install.md`)
 - `<機能名>` は両者で完全に一致させる(ガイドと検証項目をファイル名で対応付けられるようにするため)
-- ガイドと検証項目を同一フォルダにネストする構成(例: `docs/agent-install/checklist/agent-install.md`)は **採用しない**。理由: 「初期設定」「POC検証項目」という2つの独立したnavタブに対応させるには、フォルダを分けた方が `mkdocs.yml` の記述・将来の一括処理(Excel生成等)の両方でシンプルになるため
+- ガイドと検証項目を同一フォルダにネストする構成(例: `docs/agent-install/checklist/agent-install.md`)は **採用しない**。理由: 「設定手順」「POC検証項目」という2つの独立したnavタブに対応させるには、フォルダを分けた方が `mkdocs.yml` の記述・将来の一括処理(Excel生成等)の両方でシンプルになるため
 
+## 2.6 前提条件(Prerequisites)ファイルの構成ルール
 
+各種「要件」に関するドキュメントは、機能ガイド(`docs/<カテゴリ>/`)や検証項目(`docs/checklist/`)とは別に、
+**`docs/prerequisites/` フォルダに集約**する。
+
+### 対象ファイルと配置
+
+| ファイル | 内容 |
+| --- | --- |
+| `docs/prerequisites/network-requirements.md` | ネットワーク要件(通信先、ポート、プロキシ要件など) |
+| `docs/prerequisites/platform-requirements.md` | プラットフォーム要件(対応OS、バージョン、ライセンス要件など) |
+| `docs/prerequisites/patch-requirements.md` | パッチ要件(パッチ管理機能に関する前提条件) |
+| `docs/prerequisites/browser-requirements.md` | ブラウザ要件(管理コンソールの対応ブラウザなど) |
+
+### 配置ルール
+
+- 上記4ファイルは **機能ガイド本文からは分離**し、各ガイド本文からは該当する要件ファイルへリンクする形にする
+  (例: `agent-install.md` の「前提条件」セクションから `../prerequisites/network-requirements.md` を参照するなど)
+- 新しい前提条件のカテゴリが今後必要になった場合も、同様に `docs/prerequisites/<種別>-requirements.md` の命名パターンに従う
+- 既存で `docs/` 直下に置かれていた `network-requirements.md` は `docs/prerequisites/network-requirements.md` へ移動済み
+
+### nav への反映
+
+`mkdocs.yml` の `nav:` トップレベルは **ホーム / 前提条件 / 設定手順 / POC 検証項目** の4タブ構成とする。
+「前提条件」は「設定手順」にネストせず、**独立したトップレベルタブ**として配置する:
+
+```yaml
+nav:
+  - ホーム: index.md
+  - 前提条件:
+      - ネットワーク要件: prerequisites/network-requirements.md
+      - プラットフォーム要件: prerequisites/platform-requirements.md
+      - パッチ要件: prerequisites/patch-requirements.md
+      - ブラウザ要件: prerequisites/browser-requirements.md
+  - 設定手順:
+      - エージェントのインストール: neurons/agent-install.md
+  - POC 検証項目:
+      - エージェントのインストール: checklist/agent-install.md
+```
+
+(検証項目タブには前提条件用のチェック表は作らない。前提条件は「満たしているかを事前確認するもの」であり、
+POC実施後の検証結果一覧とは性質が異なるため)
+
+### 前提条件ページの構成テンプレート
+
+前提条件ページは、機能ガイドページの完全なテンプレート(3章)を適用せず、以下の簡易構成でよい:
+
+1. H1タイトル(例: `# ネットワーク要件`)
+2. 概要(1〜2行)
+3. 要件を表形式で整理(項目 / 要件内容 / 備考)
+4. 参照元 admonition(該当する日本語版ヘルプへのリンク)
+
+## 3. ページ構成のテンプレート
 
 新規ガイドページ(`docs/<カテゴリ>/<機能名>.md`)は、この順序で構成する:
 
@@ -60,7 +112,7 @@
       本ページに対応する検証項目の一覧は、[POC 検証項目](../checklist/<機能名>.md) タブを参照してください。
   ```
 
-- `mkdocs.yml` の `nav:` に、対応する2エントリを追加する(「初期設定」タブ側と「POC 検証項目」タブ側)
+- `mkdocs.yml` の `nav:` に、対応する2エントリを追加する(「設定手順」タブ側と「POC 検証項目」タブ側)
 
 ## 5. デザイン・技術仕様(変更しない)
 
