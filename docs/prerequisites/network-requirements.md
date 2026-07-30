@@ -58,7 +58,7 @@ Ivanti Neurons Platform / Neurons Agent は、テナントの「ランドスケ�
 
 ## ホワイトリスト(パッチ配信元ベンダー URL)
 
-パッチ管理でエージェントがピア/プリファード サーバーを経由せず、ベンダーのダウンロード サイトから直接パッチを取得する構成の場合、各ベンダーの配布 URL もファイアウォールで個別に許可する必要があります。ベンダー URL は数が多く、IP アドレスも動的なため、以下の KB 記事の **Related Files** に用意されている CSV ファイルをダウンロードし、そこに記載された URL 一覧をホワイトリスト登録してください。
+パッチ管理でエージェントがピア/優先サーバーを経由せず、ベンダーのダウンロード サイトから直接パッチを取得する構成の場合、各ベンダーの配布 URL もファイアウォールで個別に許可する必要があります。ベンダー URL は数が多く、IP アドレスも動的なため、以下の KB 記事の **Related Files** に用意されている CSV ファイルをダウンロードし、そこに記載された URL 一覧をホワイトリスト登録してください。
 
 1. [Content URL Exception List for EPM Ivanti Endpoint Management and Ivanti Neurons UEM](https://hub.ivanti.com/s/article/Content-URL-exception-list-for-EPM-Ivanti-Endpoint-Management?language=en_US)にアクセスします
 2. ページ最下部の **Related Files** セクションにある `UrlData-<更新日>` という名前の CSV ファイルをダウンロードします
