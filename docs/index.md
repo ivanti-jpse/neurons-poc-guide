@@ -28,6 +28,4 @@ Ivanti Neurons Platform の導入・設定・POC 実施手順をまとめたガ�
 | 項目 | 内容 |
 | --- | --- |
 | Neurons コンソール URL | [https://meriken.ivanticloud.com](https://meriken.ivanticloud.com) |
-| ユーザー名 | `meriken@vantosico.com` |
-| パスワード | `Welcome1234!` |
 | エンドポイント | `client-imzsfy00` |
