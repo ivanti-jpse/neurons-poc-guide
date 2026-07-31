@@ -3,7 +3,7 @@
 Ivanti Neurons Platform の導入・設定・POC 実施手順をまとめたガイドサイトです。
 
 !!! note "本サイトについて"
-    本ガイドは Ivanti 公式ドキュメント([help.ivanti.com](https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/agents.htm))をもとに、
+    本ガイドは Ivanti 公式ドキュメント([help.ivanti.com](https://help.ivanti.com/ht/help/ja_JP/CLOUD/vNow/what's-new.htm))をもとに、
     POC・導入支援の観点で再構成したものです。最新の正式情報は必ず公式ドキュメントを参照してください。
 
 ## コンテンツ
@@ -28,4 +28,3 @@ Ivanti Neurons Platform の導入・設定・POC 実施手順をまとめたガ�
 | 項目 | 内容 |
 | --- | --- |
 | Neurons コンソール URL | [https://meriken.ivanticloud.com](https://meriken.ivanticloud.com) |
-| エンドポイント | `client-imzsfy00` |
