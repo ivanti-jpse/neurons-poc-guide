@@ -18,6 +18,8 @@ Ivanti Neurons Platform の導入・設定・POC 実施手順をまとめたガ�
 
 ---
 
+<div id="poc-env" markdown="1">
+
 ## POC 環境
 
 共用のPOC環境をご用意しています。ネットワーク要件の調整や検証マシンの準備が難しい場合は、共用POC環境に登録済みのエンドポイントを利用いただけます。
@@ -28,3 +30,5 @@ Ivanti Neurons Platform の導入・設定・POC 実施手順をまとめたガ�
 | 項目 | 内容 |
 | --- | --- |
 | Neurons コンソール URL | [https://meriken.ivanticloud.com](https://meriken.ivanticloud.com) |
+
+</div>

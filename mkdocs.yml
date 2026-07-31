@@ -30,6 +30,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/hide-section.js
+
 nav:
   - ホーム: index.md
   - 前提条件:
