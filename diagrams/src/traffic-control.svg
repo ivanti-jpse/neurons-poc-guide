@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1090" width="1200" height="1090" font-family="'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic',Meiryo,sans-serif">
+<defs>
+  <pattern id="stripeR" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="14" height="14" fill="#F6D6D5"/><rect x="7" width="7" height="14" fill="#E8807C"/>
+  </pattern>
+  <pattern id="stripeG" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="14" height="14" fill="#2E9E5B"/><rect x="7" width="7" height="14" fill="#268A4F"/>
+  </pattern>
+  <clipPath id="pipeClip"><rect x="642" y="376" width="468" height="38" rx="19"/></clipPath>
+</defs>
+<rect width="1200" height="1090" fill="#FFFFFF"/>
+<text x="600" y="83" font-size="30" font-weight="700" fill="#241B33" text-anchor="middle">パッチ配信のトラフィックを「拠点の中」で完結させる</text>
+<text x="600" y="118" font-size="15" font-weight="400" fill="#6B6B7B" text-anchor="middle">優先サーバ・ピアダウンロード・帯域制御でできること</text>
+<rect x="64" y="168" width="520" height="560" rx="20" fill="#FBF1EF" stroke="#E9C6C0" stroke-width="1.5"/>
+<rect x="90" y="198" width="100" height="30" rx="14" fill="#C0392B"/>
+<text x="140" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">BEFORE</text>
+<g transform="translate(297,254) scale(2.25)"><path d="M6.5 19a4.5 4.5 0 0 1-.5-8.97A5 5 0 0 1 15.9 7.02 4.5 4.5 0 0 1 19.5 15.5 4.5 4.5 0 0 1 15.5 19h-9z" stroke="#5B2A87" stroke-width="1.4" fill="#F3EEFA"/></g>
+<rect x="226" y="318" width="74" height="21" rx="10" fill="#F3EEFA" stroke="#D9CBEF"/>
+<text x="263.0" y="332.5" font-size="10.5" font-weight="700" fill="#5A4A78" text-anchor="middle">Microsoft</text>
+<rect x="306" y="318" width="116" height="21" rx="10" fill="#F3EEFA" stroke="#D9CBEF"/>
+<text x="364.0" y="332.5" font-size="10.5" font-weight="700" fill="#5A4A78" text-anchor="middle">各種アプリベンダー</text>
+<rect x="140" y="283" width="131" height="25" rx="8" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.5"/>
+<path d="M240 308 L258 308 L253 317 Z" fill="#C0392B"/>
+<path d="M242 306.5 L255.5 306.5 L252.5 314 Z" fill="#FFFFFF"/>
+<text x="205.5" y="300" font-size="10" font-weight="700" fill="#C0392B" text-anchor="middle">月次パッチは4GB超えも</text>
+<g transform="translate(192.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(242.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(292.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(342.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(392.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(442.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="90" y="376" width="468" height="38" rx="19" fill="url(#stripeR)" stroke="#D9534F" stroke-width="2"/>
+<text x="324" y="441" font-size="13.5" font-weight="700" fill="#C0392B" text-anchor="middle">WAN / インターネット回線が満杯</text>
+<g transform="translate(192.5,468)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(181,480) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#B5574F" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#B5574F" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#B5574F" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#B5574F" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(242.5,468)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(231,480) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#B5574F" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#B5574F" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#B5574F" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#B5574F" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(292.5,468)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(281,480) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#B5574F" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#B5574F" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#B5574F" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#B5574F" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(342.5,468)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(331,480) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#B5574F" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#B5574F" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#B5574F" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#B5574F" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(392.5,468)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(381,480) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#B5574F" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#B5574F" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#B5574F" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#B5574F" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(442.5,468)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#D9534F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(431,480) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#B5574F" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#B5574F" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#B5574F" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#B5574F" stroke-width="2" stroke-linecap="round"/></g>
+<text x="324" y="547" font-size="13.5" font-weight="700" fill="#C0392B" text-anchor="middle">全端末が同じパッチを台数分ダウンロード</text>
+<path d="M91 608.5 L101 618.5 M101 608.5 L91 618.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="116" y="618.0" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">配信に時間がかかり、失敗も増える</text>
+<path d="M91 633.2 L101 643.2 M101 633.2 L91 643.2" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="116" y="642.7" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">業務システムの通信まで遅くなる</text>
+<path d="M91 657.9 L101 667.9 M101 657.9 L91 667.9" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="116" y="667.4" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">回線増強のコストが膨らむ</text>
+<rect x="616" y="168" width="520" height="560" rx="20" fill="#F0F8F2" stroke="#C7E3D0" stroke-width="1.5"/>
+<rect x="642" y="198" width="92" height="30" rx="14" fill="#2E9E5B"/>
+<text x="688" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">AFTER</text>
+<g transform="translate(849,254) scale(2.25)"><path d="M6.5 19a4.5 4.5 0 0 1-.5-8.97A5 5 0 0 1 15.9 7.02 4.5 4.5 0 0 1 19.5 15.5 4.5 4.5 0 0 1 15.5 19h-9z" stroke="#5B2A87" stroke-width="1.4" fill="#F3EEFA"/></g>
+<rect x="778" y="318" width="74" height="21" rx="10" fill="#F3EEFA" stroke="#D9CBEF"/>
+<text x="815.0" y="332.5" font-size="10.5" font-weight="700" fill="#5A4A78" text-anchor="middle">Microsoft</text>
+<rect x="858" y="318" width="116" height="21" rx="10" fill="#F3EEFA" stroke="#D9CBEF"/>
+<text x="916.0" y="332.5" font-size="10.5" font-weight="700" fill="#5A4A78" text-anchor="middle">各種アプリベンダー</text>
+<g transform="translate(869.5,357)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#2E9E5B" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g clip-path="url(#pipeClip)"><rect x="642" y="376" width="178" height="38" fill="url(#stripeG)"/><rect x="820" y="376" width="290" height="38" fill="#DDEEF5"/></g>
+<rect x="642" y="376" width="468" height="38" rx="19" fill="none" stroke="#2E9E5B" stroke-width="2"/>
+<text x="731" y="400" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">パッチ配信</text>
+<text x="965" y="400" font-size="12" font-weight="700" fill="#2A6E8F" text-anchor="middle">業務通信ぶんを確保</text>
+<text x="876" y="441" font-size="13.5" font-weight="700" fill="#1F7A46" text-anchor="middle">WAN を通るのは「1回ぶん」だけ　＋　上限 % を設定</text>
+<rect x="698" y="468" width="78" height="88" rx="10" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="2"/>
+<g transform="translate(720.2,490.9) scale(1.05)"><rect x="2" y="2" width="28" height="36" rx="4" stroke="#2E9E5B" stroke-width="2" fill="none"/><line x1="6" y1="12" x2="26" y2="12" stroke="#2E9E5B" stroke-width="1.5"/><line x1="6" y1="20" x2="26" y2="20" stroke="#2E9E5B" stroke-width="1.5"/><line x1="6" y1="28" x2="26" y2="28" stroke="#2E9E5B" stroke-width="1.5"/><circle cx="22" cy="7" r="1.5" fill="#2E9E5B"/><circle cx="22" cy="15" r="1.5" fill="#2E9E5B"/><circle cx="22" cy="23" r="1.5" fill="#2E9E5B"/></g>
+<text x="737" y="574" font-size="12" font-weight="700" fill="#1F7A46" text-anchor="middle">優先サーバ</text>
+<text x="737" y="592" font-size="10.5" font-weight="400" fill="#4A7A5C" text-anchor="middle">拠点内のファイル共有</text>
+<g transform="translate(798,490)"><path d="M0 8 H246" stroke="#2E9E5B" stroke-width="2.5"/><path d="M238 2 L246 8 L238 14" stroke="#2E9E5B" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(798,514) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#2E9E5B" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#2E9E5B" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#2E9E5B" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(842,514) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#2E9E5B" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#2E9E5B" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#2E9E5B" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(886,514) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#2E9E5B" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#2E9E5B" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#2E9E5B" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(930,514) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#2E9E5B" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#2E9E5B" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#2E9E5B" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(974,514) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#2E9E5B" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#2E9E5B" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#2E9E5B" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round"/></g>
+<g transform="translate(1018,514) scale(0.9)"><rect x="4" y="6" width="32" height="21" rx="3" stroke="#2E9E5B" stroke-width="2" fill="none"/><rect x="8" y="10" width="24" height="13" rx="1" fill="#2E9E5B" opacity="0.16"/><line x1="20" y1="27" x2="20" y2="31" stroke="#2E9E5B" stroke-width="2"/><line x1="13" y1="33" x2="27" y2="33" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round"/></g>
+<text x="926" y="578" font-size="12" font-weight="700" fill="#1F7A46" text-anchor="middle">端末どうし（ピア）で配り合う</text>
+<circle cx="648" cy="616.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="668" y="621.0" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">配信が速く、失敗も減る</text>
+<circle cx="648" cy="641.2" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="668" y="645.7" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">業務通信を止めない</text>
+<circle cx="648" cy="665.9" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="668" y="670.4" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">回線コストを抑えられる</text>
+<rect x="64" y="772" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="88" y="798" width="46" height="46" rx="12" fill="#F3EEFA"/>
+<g transform="translate(100.6,808.0) scale(0.65)"><rect x="2" y="2" width="28" height="36" rx="4" stroke="#5B2A87" stroke-width="2.2" fill="none"/><line x1="6" y1="12" x2="26" y2="12" stroke="#5B2A87" stroke-width="1.6"/><line x1="6" y1="20" x2="26" y2="20" stroke="#5B2A87" stroke-width="1.6"/><line x1="6" y1="28" x2="26" y2="28" stroke="#5B2A87" stroke-width="1.6"/></g>
+<text x="88" y="875" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">優先サーバ</text>
+<text x="88" y="898" font-size="13" font-weight="400" fill="#5A4A78" text-anchor="start">拠点に1回運べば、あとは社内で配る</text>
+<text x="88" y="935" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・同じファイルを台数分ダウンロードしない</text>
+<text x="88" y="958" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・拠点ごとに置けば拠点間・FW越えの通信減</text>
+<text x="88" y="981" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・サーバが落ちても別経路へ自動で切替</text>
+<text x="88" y="1004" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・足りないパッチだけを自動的にダウンロード</text>
+<rect x="429" y="772" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="453" y="798" width="46" height="46" rx="12" fill="#E9F5F6"/>
+<g transform="translate(464.0,809.0)"><path d="M17 2l4 4-4 4" stroke="#0E7C86" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 6H8a4 4 0 0 0-4 4v1" stroke="#0E7C86" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M7 22l-4-4 4-4" stroke="#0E7C86" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 18h13a4 4 0 0 0 4-4v-1" stroke="#0E7C86" stroke-width="2" fill="none" stroke-linecap="round"/></g>
+<text x="453" y="875" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">ピアダウンロード</text>
+<text x="453" y="898" font-size="13" font-weight="400" fill="#0E7C86" text-anchor="start">端末どうしで配り合う</text>
+<text x="453" y="935" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・優先サーバを置けない拠点でも効果が出る</text>
+<text x="453" y="958" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・台数が多いほど効率が上がる</text>
+<text x="453" y="981" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・1台が落ちても他の端末から取得できる</text>
+<text x="453" y="1004" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・拠点内の速い回線だけで配信が完結</text>
+<rect x="795" y="772" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="819" y="798" width="46" height="46" rx="12" fill="#FCF1DC"/>
+<g transform="translate(830.0,809.0)"><path d="M4 15a8 8 0 0 1 16 0" stroke="#A8720F" stroke-width="2" fill="none" stroke-linecap="round"/><line x1="12" y1="15" x2="16" y2="9" stroke="#A8720F" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="15" r="1.6" fill="#A8720F"/></g>
+<text x="819" y="875" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">帯域制御</text>
+<text x="819" y="898" font-size="13" font-weight="400" fill="#A8720F" text-anchor="start">パッチ配信で業務を止めない</text>
+<text x="819" y="935" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・LAN と WAN それぞれに使用上限を設定</text>
+<text x="819" y="958" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・細い回線や従量課金の拠点でも安心</text>
+<text x="819" y="981" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・日中でも配信でき、夜間作業に縛られない</text>
+<text x="819" y="1004" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・業務システムの通信を優先できる</text>
+</svg>

@@ -7,16 +7,27 @@
    ========================================================== */
 
 :root {
-  /* Ivanti レッド(プライマリ) */
+  /* Ivanti レッド(プライマリ) ※元の配色。パープルに戻す場合はこちらを有効化 */
+  /* --ivanti-red: #c8102e; */
+  /* --ivanti-red-dark: #9e0b23; */
   --ivanti-red: #c8102e;
   --ivanti-red-dark: #9e0b23;
   /* Ivanti ダークネイビー(見出し・フッター向け) */
   --ivanti-navy: #1b1f3b;
 
+  /* パープル(試験カラー。特長タブのインフォグラフィックの配色に合わせた値) */
+  --ivanti-purple: #2a1a48;
+  --ivanti-purple-dark: #1e1333;
+  --ivanti-purple-light: #4a3572;
+
   /* Material for MkDocs のテーマ変数を上書き */
+  /* パープル(試験カラー)。使う場合は下の3行のコメントを外し、レッドの3行をコメントアウトしてください */
   --md-primary-fg-color: var(--ivanti-red);
   --md-primary-fg-color--light: #e2465e;
   --md-primary-fg-color--dark: var(--ivanti-red-dark);
+  /* --md-primary-fg-color: var(--ivanti-purple); */
+  /* --md-primary-fg-color--light: var(--ivanti-purple-light); */
+  /* --md-primary-fg-color--dark: var(--ivanti-purple-dark); */
   --md-accent-fg-color: var(--ivanti-red);
 }
 
@@ -24,10 +35,57 @@
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: var(--ivanti-red);
   --md-accent-fg-color: #e2465e;
+  /* --md-primary-fg-color: var(--ivanti-purple); */
+  /* --md-accent-fg-color: var(--ivanti-purple-light); */
 }
 
 /* 見出しをやや引き締める */
 .md-typeset h1,
 .md-typeset h2 {
   font-weight: 700;
+}
+
+/* アクセシビリティ用に見出しは残すが画面上は非表示にする
+   (例: 特長タブの画像のみのページなど、視覚的なタイトルを出したくない場合) */
+.md-typeset .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 画像クリックで拡大表示(javascripts/image-zoom.js) */
+.md-typeset img.image-zoom-target {
+  cursor: zoom-in;
+}
+
+.image-zoom-overlay {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+.image-zoom-overlay.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.image-zoom-overlay img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: zoom-out;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
 }

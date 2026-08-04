@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1130" width="1200" height="1130" font-family="&#39;Noto Sans JP&#39;,&#39;Noto Sans CJK JP&#39;,&#39;Hiragino Sans&#39;,&#39;Yu Gothic&#39;,Meiryo,sans-serif">
+<defs>
+<linearGradient id="domeGradBefore" x1="176" y1="353" x2="176" y2="396" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#F6F6F8"></stop>
+<stop offset="1" stop-color="#D9D9E0"></stop>
+</linearGradient>
+<linearGradient id="domeGradAfter" x1="876" y1="318" x2="876" y2="398" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#EEFAF2"></stop>
+<stop offset="1" stop-color="#C8E8D4"></stop>
+</linearGradient>
+<radialGradient id="foldShadowBefore" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#6B6B78" stop-opacity="0.30"></stop>
+<stop offset="1" stop-color="#6B6B78" stop-opacity="0"></stop>
+</radialGradient>
+<radialGradient id="foldShadowAfter" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#1F7A46" stop-opacity="0.26"></stop>
+<stop offset="1" stop-color="#1F7A46" stop-opacity="0"></stop>
+</radialGradient>
+<clipPath id="domeClipBefore"><path d="M108 396 C108 380 118 366 133 361 C147 356 162 353 176 353 C190 353 205 356 219 361 C234 366 244 380 244 396 Q230.4 407 216.8 396 Q203.2 407 189.6 396 Q176.0 407 162.4 396 Q148.8 407 135.2 396 Q121.6 407 108.0 396 Z"></path></clipPath>
+<clipPath id="domeClipAfter"><path d="M676 398 C676 366 700 340 733 331 C767 322 800 318 876 318 C952 318 985 322 1019 331 C1052 340 1076 366 1076 398 Q1042.7 412 1009.3 398 Q976.0 412 942.7 398 Q909.3 412 876.0 398 Q842.7 412 809.3 398 Q776.0 412 742.7 398 Q709.3 412 676.0 398 Z"></path></clipPath>
+</defs>
+<rect width="1200" height="1130" fill="#FFFFFF"></rect>
+<text x="600" y="84" font-size="30" font-weight="700" fill="#241B33" text-anchor="middle">OS・アプリ・ドライバ、すべてを「更新の傘」の下へ</text>
+<text x="600" y="119" font-size="15" font-weight="400" fill="#6B6B7B" text-anchor="middle">Windows だけの手作業から、マルチOS・サードパーティアプリ・ドライバの自動更新へ</text>
+<rect x="64" y="168" width="520" height="600" rx="20" fill="#FBF1EF" stroke="#E9C6C0" stroke-width="1.5"></rect>
+<rect x="90" y="198" width="100" height="30" rx="14" fill="#C0392B"></rect>
+<text x="140" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">BEFORE</text>
+<text x="558" y="218" font-size="11" font-weight="700" fill="#C0392B" text-anchor="end">日々公開される脆弱性</text>
+<line x1="250.8" y1="263.1" x2="247.4" y2="276.2" stroke="#D9534F" stroke-width="1.99" stroke-linecap="round" opacity="0.79"></line>
+<line x1="538.7" y1="260.5" x2="535.6" y2="272.5" stroke="#D9534F" stroke-width="1.93" stroke-linecap="round" opacity="0.77"></line>
+<line x1="338.7" y1="381.0" x2="336.1" y2="391.2" stroke="#D9534F" stroke-width="1.84" stroke-linecap="round" opacity="0.72"></line>
+<line x1="523.0" y1="286.9" x2="519.1" y2="302.1" stroke="#D9534F" stroke-width="2.10" stroke-linecap="round" opacity="0.85"></line>
+<line x1="501.3" y1="313.7" x2="498.7" y2="323.8" stroke="#D9534F" stroke-width="1.83" stroke-linecap="round" opacity="0.71"></line>
+<line x1="467.0" y1="338.5" x2="463.6" y2="352.0" stroke="#D9534F" stroke-width="2.01" stroke-linecap="round" opacity="0.80"></line>
+<line x1="368.9" y1="253.9" x2="365.7" y2="266.3" stroke="#D9534F" stroke-width="1.95" stroke-linecap="round" opacity="0.78"></line>
+<line x1="177.5" y1="371.0" x2="174.5" y2="382.7" stroke="#D9534F" stroke-width="1.91" stroke-linecap="round" opacity="0.76"></line>
+<line x1="529.2" y1="323.8" x2="525.4" y2="339.0" stroke="#D9534F" stroke-width="2.10" stroke-linecap="round" opacity="0.85"></line>
+<line x1="484.6" y1="351.3" x2="480.5" y2="367.4" stroke="#D9534F" stroke-width="2.15" stroke-linecap="round" opacity="0.87"></line>
+<line x1="283.1" y1="292.0" x2="280.4" y2="302.4" stroke="#D9534F" stroke-width="1.85" stroke-linecap="round" opacity="0.72"></line>
+<line x1="145.3" y1="259.9" x2="142.0" y2="273.0" stroke="#D9534F" stroke-width="1.99" stroke-linecap="round" opacity="0.79"></line>
+<line x1="506.4" y1="330.3" x2="503.0" y2="343.3" stroke="#D9534F" stroke-width="1.99" stroke-linecap="round" opacity="0.79"></line>
+<line x1="125.9" y1="339.8" x2="122.7" y2="352.3" stroke="#D9534F" stroke-width="1.96" stroke-linecap="round" opacity="0.78"></line>
+<line x1="373.5" y1="313.7" x2="369.5" y2="329.0" stroke="#D9534F" stroke-width="2.11" stroke-linecap="round" opacity="0.85"></line>
+<line x1="145.7" y1="277.5" x2="142.8" y2="289.0" stroke="#D9534F" stroke-width="1.91" stroke-linecap="round" opacity="0.75"></line>
+<line x1="252.7" y1="358.7" x2="249.2" y2="372.2" stroke="#D9534F" stroke-width="2.01" stroke-linecap="round" opacity="0.81"></line>
+<line x1="482.7" y1="303.9" x2="478.5" y2="320.3" stroke="#D9534F" stroke-width="2.16" stroke-linecap="round" opacity="0.88"></line>
+<line x1="172.0" y1="345.5" x2="168.5" y2="359.4" stroke="#D9534F" stroke-width="2.03" stroke-linecap="round" opacity="0.82"></line>
+<line x1="360.2" y1="294.2" x2="355.9" y2="310.9" stroke="#D9534F" stroke-width="2.18" stroke-linecap="round" opacity="0.89"></line>
+<line x1="239.9" y1="244.2" x2="237.0" y2="255.5" stroke="#D9534F" stroke-width="1.90" stroke-linecap="round" opacity="0.75"></line>
+<line x1="180.0" y1="278.3" x2="177.5" y2="287.9" stroke="#D9534F" stroke-width="1.81" stroke-linecap="round" opacity="0.70"></line>
+<line x1="334.1" y1="258.9" x2="331.1" y2="270.3" stroke="#D9534F" stroke-width="1.90" stroke-linecap="round" opacity="0.75"></line>
+<line x1="175.3" y1="254.1" x2="172.2" y2="266.0" stroke="#D9534F" stroke-width="1.93" stroke-linecap="round" opacity="0.76"></line>
+<line x1="468.9" y1="261.0" x2="466.1" y2="271.9" stroke="#D9534F" stroke-width="1.87" stroke-linecap="round" opacity="0.74"></line>
+<line x1="409.3" y1="255.5" x2="405.6" y2="270.0" stroke="#D9534F" stroke-width="2.06" stroke-linecap="round" opacity="0.83"></line>
+<line x1="310.1" y1="295.7" x2="306.3" y2="310.3" stroke="#D9534F" stroke-width="2.07" stroke-linecap="round" opacity="0.83"></line>
+<line x1="192.0" y1="322.2" x2="188.1" y2="337.3" stroke="#D9534F" stroke-width="2.10" stroke-linecap="round" opacity="0.85"></line>
+<line x1="277.9" y1="270.7" x2="275.0" y2="282.1" stroke="#D9534F" stroke-width="1.90" stroke-linecap="round" opacity="0.75"></line>
+<line x1="534.4" y1="389.2" x2="531.2" y2="401.6" stroke="#D9534F" stroke-width="1.95" stroke-linecap="round" opacity="0.78"></line>
+<line x1="329.7" y1="362.4" x2="326.6" y2="374.2" stroke="#D9534F" stroke-width="1.92" stroke-linecap="round" opacity="0.76"></line>
+<line x1="394.5" y1="351.4" x2="390.9" y2="365.3" stroke="#D9534F" stroke-width="2.03" stroke-linecap="round" opacity="0.82"></line>
+<line x1="543.0" y1="367.3" x2="540.1" y2="378.9" stroke="#D9534F" stroke-width="1.91" stroke-linecap="round" opacity="0.75"></line>
+<line x1="156.4" y1="388.9" x2="152.4" y2="404.6" stroke="#D9534F" stroke-width="2.12" stroke-linecap="round" opacity="0.86"></line>
+<line x1="363.0" y1="344.8" x2="359.5" y2="358.3" stroke="#D9534F" stroke-width="2.01" stroke-linecap="round" opacity="0.81"></line>
+<line x1="378.0" y1="350.9" x2="374.2" y2="365.8" stroke="#D9534F" stroke-width="2.09" stroke-linecap="round" opacity="0.84"></line>
+<line x1="210.8" y1="267.7" x2="207.0" y2="282.4" stroke="#D9534F" stroke-width="2.07" stroke-linecap="round" opacity="0.84"></line>
+<line x1="557.3" y1="265.1" x2="554.4" y2="276.2" stroke="#D9534F" stroke-width="1.88" stroke-linecap="round" opacity="0.74"></line>
+<line x1="427.1" y1="311.8" x2="423.4" y2="325.9" stroke="#D9534F" stroke-width="2.05" stroke-linecap="round" opacity="0.82"></line>
+<line x1="396.0" y1="324.5" x2="393.0" y2="336.1" stroke="#D9534F" stroke-width="1.91" stroke-linecap="round" opacity="0.76"></line>
+<line x1="296.8" y1="389.5" x2="293.2" y2="403.7" stroke="#D9534F" stroke-width="2.05" stroke-linecap="round" opacity="0.82"></line>
+<line x1="395.5" y1="388.8" x2="392.8" y2="399.5" stroke="#D9534F" stroke-width="1.87" stroke-linecap="round" opacity="0.73"></line>
+<line x1="426.9" y1="269.3" x2="423.4" y2="283.0" stroke="#D9534F" stroke-width="2.02" stroke-linecap="round" opacity="0.81"></line>
+<line x1="245.8" y1="310.9" x2="242.0" y2="326.0" stroke="#D9534F" stroke-width="2.10" stroke-linecap="round" opacity="0.85"></line>
+<line x1="519.1" y1="341.6" x2="516.1" y2="353.5" stroke="#D9534F" stroke-width="1.93" stroke-linecap="round" opacity="0.76"></line>
+<line x1="271.2" y1="339.4" x2="267.8" y2="352.8" stroke="#D9534F" stroke-width="2.00" stroke-linecap="round" opacity="0.80"></line>
+<line x1="233.5" y1="363.1" x2="230.3" y2="375.7" stroke="#D9534F" stroke-width="1.96" stroke-linecap="round" opacity="0.78"></line>
+<line x1="325.7" y1="342.9" x2="322.2" y2="356.6" stroke="#D9534F" stroke-width="2.02" stroke-linecap="round" opacity="0.81"></line>
+<line x1="472.7" y1="278.6" x2="468.7" y2="294.0" stroke="#D9534F" stroke-width="2.11" stroke-linecap="round" opacity="0.85"></line>
+<line x1="202.7" y1="303.6" x2="199.2" y2="317.4" stroke="#D9534F" stroke-width="2.03" stroke-linecap="round" opacity="0.81"></line>
+<path d="M120 378 q 4 -7 9 -1 M131 379 q 5 -8 10 -1" fill="none" stroke="#D9534F" stroke-width="1.7" stroke-linecap="round" opacity="0.8"></path>
+<path d="M202 376 q 4 -7 9 -1 M213 377 q 5 -8 10 -1" fill="none" stroke="#D9534F" stroke-width="1.7" stroke-linecap="round" opacity="0.8"></path>
+<path d="M108 396 C108 380 118 366 133 361 C147 356 162 353 176 353 C190 353 205 356 219 361 C234 366 244 380 244 396 Q230.4 407 216.8 396 Q203.2 407 189.6 396 Q176.0 407 162.4 396 Q148.8 407 135.2 396 Q121.6 407 108.0 396 Z" fill="url(#domeGradBefore)" stroke="#8A8A96" stroke-width="2.2" stroke-linejoin="round"></path>
+<g clip-path="url(#domeClipBefore)">
+<ellipse cx="135.2" cy="399" rx="9" ry="12" fill="url(#foldShadowBefore)"></ellipse>
+<ellipse cx="162.4" cy="399" rx="9" ry="12" fill="url(#foldShadowBefore)"></ellipse>
+<ellipse cx="189.6" cy="399" rx="9" ry="12" fill="url(#foldShadowBefore)"></ellipse>
+<ellipse cx="216.8" cy="399" rx="9" ry="12" fill="url(#foldShadowBefore)"></ellipse>
+</g>
+<line x1="176" y1="401.5" x2="176" y2="556" stroke="#8A8A96" stroke-width="2.8" stroke-linecap="round"></line>
+<path d="M176 556 q 0 13 -13 13 q -10 0 -10 -8" fill="none" stroke="#8A8A96" stroke-width="2.8" stroke-linecap="round"></path>
+<rect x="112" y="420" width="128" height="124" rx="12" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.6" stroke-dasharray="6 5"></rect>
+<g transform="translate(156,438) scale(1.0)" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="34" height="23" rx="3"></rect><line x1="20" y1="29" x2="20" y2="34"></line><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"></line></g>
+<circle cx="198" cy="444" r="8.5" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"></circle>
+<path d="M194 444 l 3 3.2 l 5.4 -6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<text x="176" y="502" font-size="12.5" font-weight="700" fill="#1F7A46" text-anchor="middle">Windows OS</text>
+<text x="176" y="522" font-size="10.5" font-weight="400" fill="#4A7A5C" text-anchor="middle">ここだけが自動</text>
+<g transform="translate(302,400) scale(1.0)" fill="none" stroke="#B8B8C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="26" height="19" rx="2.5"></rect><path d="M2 31 h36 a3 3 0 0 1 -3 3 H5 a3 3 0 0 1 -3 -3 Z" stroke-linejoin="round"></path></g>
+<circle cx="342" cy="406" r="8.5" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.8"></circle>
+<line x1="342" y1="402" x2="342" y2="407" stroke="#C0392B" stroke-width="2" stroke-linecap="round"></line>
+<circle cx="342" cy="410" r="1.2" fill="#C0392B"></circle>
+<text x="322" y="458" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="middle">macOS</text>
+<g transform="translate(450,400) scale(1.0)" fill="none" stroke="#B8B8C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="28" height="12" rx="2.5"></rect><rect x="6" y="22" width="28" height="12" rx="2.5"></rect><circle cx="12" cy="12" r="1.4" fill="#B8B8C2" stroke="none"></circle><circle cx="12" cy="28" r="1.4" fill="#B8B8C2" stroke="none"></circle></g>
+<circle cx="490" cy="406" r="8.5" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.8"></circle>
+<line x1="490" y1="402" x2="490" y2="407" stroke="#C0392B" stroke-width="2" stroke-linecap="round"></line>
+<circle cx="490" cy="410" r="1.2" fill="#C0392B"></circle>
+<text x="470" y="458" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="middle">Linux</text>
+<g transform="translate(302,492) scale(1.0)" fill="none" stroke="#B8B8C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="13" height="13" rx="2.5"></rect><rect x="22" y="5" width="13" height="13" rx="2.5"></rect><rect x="5" y="22" width="13" height="13" rx="2.5"></rect><rect x="22" y="22" width="13" height="13" rx="2.5"></rect></g>
+<circle cx="342" cy="498" r="8.5" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.8"></circle>
+<line x1="342" y1="494" x2="342" y2="499" stroke="#C0392B" stroke-width="2" stroke-linecap="round"></line>
+<circle cx="342" cy="502" r="1.2" fill="#C0392B"></circle>
+<text x="322" y="550" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="middle">サードパーティアプリ</text>
+<g transform="translate(450,492) scale(1.0)" fill="none" stroke="#B8B8C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="22" height="22" rx="3"></rect><rect x="16" y="16" width="8" height="8" rx="1.5"></rect><path d="M15 9 V4 M25 9 V4 M15 31 V36 M25 31 V36 M9 15 H4 M9 25 H4 M31 15 H36 M31 25 H36" stroke-linecap="round"></path></g>
+<circle cx="490" cy="498" r="8.5" fill="#FFFFFF" stroke="#C0392B" stroke-width="1.8"></circle>
+<line x1="490" y1="494" x2="490" y2="499" stroke="#C0392B" stroke-width="2" stroke-linecap="round"></line>
+<circle cx="490" cy="502" r="1.2" fill="#C0392B"></circle>
+<text x="470" y="550" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="middle">ドライバ・BIOS</text>
+<text x="396" y="618" font-size="13" font-weight="700" fill="#C0392B" text-anchor="middle">傘の外 — 手作業か、そもそも対象外</text>
+<path d="M95 644.5 L105 654.5 M105 644.5 L95 654.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"></path>
+<text x="118" y="654" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">更新できるのは Windows OS だけ</text>
+<path d="M95 669.5 L105 679.5 M105 669.5 L95 679.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"></path>
+<text x="118" y="679" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">他は担当者が個別に手作業、棚卸しもできない</text>
+<path d="M95 694.5 L105 704.5 M105 694.5 L95 704.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"></path>
+<text x="118" y="704" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">未更新のアプリ・ドライバが攻撃の侵入口になる</text>
+<rect x="616" y="168" width="520" height="600" rx="20" fill="#F0F8F2" stroke="#C7E3D0" stroke-width="1.5"></rect>
+<rect x="642" y="198" width="92" height="30" rx="14" fill="#2E9E5B"></rect>
+<text x="688" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">AFTER</text>
+<text x="1110" y="218" font-size="11" font-weight="700" fill="#C0392B" text-anchor="end">日々公開される脆弱性</text>
+<line x1="859.5" y1="250.9" x2="855.7" y2="265.9" stroke="#D9534F" stroke-width="2.09" stroke-linecap="round" opacity="0.84"></line>
+<line x1="701.8" y1="296.8" x2="698.8" y2="308.7" stroke="#D9534F" stroke-width="1.92" stroke-linecap="round" opacity="0.76"></line>
+<line x1="1009.5" y1="341.3" x2="1006.1" y2="354.4" stroke="#D9534F" stroke-width="1.99" stroke-linecap="round" opacity="0.79"></line>
+<line x1="1066.2" y1="322.3" x2="1063.8" y2="331.9" stroke="#D9534F" stroke-width="1.81" stroke-linecap="round" opacity="0.70"></line>
+<line x1="703.6" y1="370.8" x2="701.1" y2="380.4" stroke="#D9534F" stroke-width="1.81" stroke-linecap="round" opacity="0.70"></line>
+<line x1="946.6" y1="344.2" x2="942.8" y2="358.8" stroke="#D9534F" stroke-width="2.07" stroke-linecap="round" opacity="0.84"></line>
+<line x1="1025.6" y1="330.0" x2="1022.8" y2="340.9" stroke="#D9534F" stroke-width="1.87" stroke-linecap="round" opacity="0.74"></line>
+<line x1="686.2" y1="263.3" x2="682.0" y2="279.7" stroke="#D9534F" stroke-width="2.16" stroke-linecap="round" opacity="0.88"></line>
+<line x1="759.2" y1="348.0" x2="754.9" y2="364.7" stroke="#D9534F" stroke-width="2.18" stroke-linecap="round" opacity="0.89"></line>
+<line x1="931.8" y1="245.5" x2="928.8" y2="257.2" stroke="#D9534F" stroke-width="1.92" stroke-linecap="round" opacity="0.76"></line>
+<line x1="808.6" y1="365.6" x2="804.4" y2="381.8" stroke="#D9534F" stroke-width="2.16" stroke-linecap="round" opacity="0.88"></line>
+<line x1="965.6" y1="306.0" x2="961.8" y2="320.9" stroke="#D9534F" stroke-width="2.08" stroke-linecap="round" opacity="0.84"></line>
+<line x1="984.9" y1="280.5" x2="981.2" y2="295.1" stroke="#D9534F" stroke-width="2.07" stroke-linecap="round" opacity="0.83"></line>
+<line x1="725.5" y1="343.2" x2="722.1" y2="356.6" stroke="#D9534F" stroke-width="2.01" stroke-linecap="round" opacity="0.80"></line>
+<line x1="970.1" y1="367.3" x2="966.6" y2="380.6" stroke="#D9534F" stroke-width="2.00" stroke-linecap="round" opacity="0.80"></line>
+<line x1="811.7" y1="256.0" x2="808.2" y2="269.7" stroke="#D9534F" stroke-width="2.02" stroke-linecap="round" opacity="0.81"></line>
+<line x1="898.6" y1="261.8" x2="894.4" y2="278.3" stroke="#D9534F" stroke-width="2.17" stroke-linecap="round" opacity="0.89"></line>
+<line x1="917.8" y1="378.7" x2="913.8" y2="394.5" stroke="#D9534F" stroke-width="2.13" stroke-linecap="round" opacity="0.87"></line>
+<line x1="783.1" y1="248.8" x2="779.8" y2="261.6" stroke="#D9534F" stroke-width="1.97" stroke-linecap="round" opacity="0.78"></line>
+<line x1="787.0" y1="369.7" x2="784.6" y2="379.3" stroke="#D9534F" stroke-width="1.80" stroke-linecap="round" opacity="0.70"></line>
+<line x1="1039.8" y1="373.5" x2="1037.1" y2="384.1" stroke="#D9534F" stroke-width="1.86" stroke-linecap="round" opacity="0.73"></line>
+<line x1="863.5" y1="334.5" x2="860.7" y2="345.6" stroke="#D9534F" stroke-width="1.89" stroke-linecap="round" opacity="0.74"></line>
+<line x1="999.2" y1="361.7" x2="995.4" y2="376.4" stroke="#D9534F" stroke-width="2.08" stroke-linecap="round" opacity="0.84"></line>
+<line x1="970.9" y1="261.9" x2="967.7" y2="274.7" stroke="#D9534F" stroke-width="1.97" stroke-linecap="round" opacity="0.79"></line>
+<line x1="1098.5" y1="336.3" x2="1095.3" y2="348.9" stroke="#D9534F" stroke-width="1.96" stroke-linecap="round" opacity="0.78"></line>
+<line x1="784.1" y1="272.7" x2="780.4" y2="286.8" stroke="#D9534F" stroke-width="2.04" stroke-linecap="round" opacity="0.82"></line>
+<line x1="1089.7" y1="385.0" x2="1087.0" y2="395.4" stroke="#D9534F" stroke-width="1.85" stroke-linecap="round" opacity="0.72"></line>
+<line x1="1072.7" y1="344.7" x2="1070.1" y2="354.9" stroke="#D9534F" stroke-width="1.84" stroke-linecap="round" opacity="0.72"></line>
+<line x1="708.4" y1="253.4" x2="705.5" y2="264.7" stroke="#D9534F" stroke-width="1.90" stroke-linecap="round" opacity="0.75"></line>
+<line x1="1089.8" y1="318.0" x2="1086.5" y2="330.8" stroke="#D9534F" stroke-width="1.97" stroke-linecap="round" opacity="0.79"></line>
+<line x1="843.4" y1="357.1" x2="839.5" y2="372.5" stroke="#D9534F" stroke-width="2.11" stroke-linecap="round" opacity="0.86"></line>
+<line x1="1012.7" y1="256.8" x2="1010.2" y2="266.9" stroke="#D9534F" stroke-width="1.83" stroke-linecap="round" opacity="0.71"></line>
+<line x1="1039.1" y1="261.9" x2="1035.0" y2="277.7" stroke="#D9534F" stroke-width="2.13" stroke-linecap="round" opacity="0.87"></line>
+<line x1="738.3" y1="364.9" x2="734.2" y2="380.9" stroke="#D9534F" stroke-width="2.14" stroke-linecap="round" opacity="0.87"></line>
+<line x1="718.3" y1="285.8" x2="715.4" y2="297.0" stroke="#D9534F" stroke-width="1.89" stroke-linecap="round" opacity="0.75"></line>
+<line x1="962.8" y1="382.1" x2="959.1" y2="396.6" stroke="#D9534F" stroke-width="2.06" stroke-linecap="round" opacity="0.83"></line>
+<line x1="870.3" y1="265.0" x2="867.5" y2="275.7" stroke="#D9534F" stroke-width="1.87" stroke-linecap="round" opacity="0.73"></line>
+<line x1="793.7" y1="352.2" x2="791.3" y2="361.5" stroke="#D9534F" stroke-width="1.79" stroke-linecap="round" opacity="0.70"></line>
+<line x1="891.1" y1="278.6" x2="887.4" y2="293.0" stroke="#D9534F" stroke-width="2.06" stroke-linecap="round" opacity="0.83"></line>
+<line x1="821.8" y1="309.4" x2="819.0" y2="320.4" stroke="#D9534F" stroke-width="1.88" stroke-linecap="round" opacity="0.74"></line>
+<line x1="1052.6" y1="388.5" x2="1049.4" y2="401.2" stroke="#D9534F" stroke-width="1.97" stroke-linecap="round" opacity="0.78"></line>
+<line x1="936.5" y1="362.4" x2="933.3" y2="374.8" stroke="#D9534F" stroke-width="1.95" stroke-linecap="round" opacity="0.77"></line>
+<line x1="946.6" y1="306.3" x2="943.4" y2="318.8" stroke="#D9534F" stroke-width="1.96" stroke-linecap="round" opacity="0.78"></line>
+<line x1="1091.5" y1="364.1" x2="1087.5" y2="379.7" stroke="#D9534F" stroke-width="2.12" stroke-linecap="round" opacity="0.86"></line>
+<line x1="1098.9" y1="245.0" x2="1094.9" y2="260.6" stroke="#D9534F" stroke-width="2.12" stroke-linecap="round" opacity="0.86"></line>
+<line x1="889.5" y1="301.8" x2="886.6" y2="313.1" stroke="#D9534F" stroke-width="1.89" stroke-linecap="round" opacity="0.75"></line>
+<line x1="928.9" y1="281.7" x2="924.8" y2="297.8" stroke="#D9534F" stroke-width="2.15" stroke-linecap="round" opacity="0.87"></line>
+<line x1="757.4" y1="274.1" x2="753.2" y2="290.7" stroke="#D9534F" stroke-width="2.17" stroke-linecap="round" opacity="0.89"></line>
+<path d="M692 349.2523684866635 q 4 -7 9 -1 M703 350.2523684866635 q 5 -8 10 -1" fill="none" stroke="#D9534F" stroke-width="1.7" stroke-linecap="round" opacity="0.8"></path>
+<path d="M752 318.6845173241013 q 4 -7 9 -1 M763 319.6845173241013 q 5 -8 10 -1" fill="none" stroke="#D9534F" stroke-width="1.7" stroke-linecap="round" opacity="0.8"></path>
+<path d="M982 318.0519777140727 q 4 -7 9 -1 M993 319.0519777140727 q 5 -8 10 -1" fill="none" stroke="#D9534F" stroke-width="1.7" stroke-linecap="round" opacity="0.8"></path>
+<path d="M1050 354.6852576050698 q 4 -7 9 -1 M1061 355.6852576050698 q 5 -8 10 -1" fill="none" stroke="#D9534F" stroke-width="1.7" stroke-linecap="round" opacity="0.8"></path>
+<path d="M676 398 C676 366 700 340 733 331 C767 322 800 318 876 318 C952 318 985 322 1019 331 C1052 340 1076 366 1076 398 Q1042.7 412 1009.3 398 Q976.0 412 942.7 398 Q909.3 412 876.0 398 Q842.7 412 809.3 398 Q776.0 412 742.7 398 Q709.3 412 676.0 398 Z" fill="url(#domeGradAfter)" stroke="#2E9E5B" stroke-width="2.8" stroke-linejoin="round"></path>
+<g clip-path="url(#domeClipAfter)">
+<ellipse cx="742.7" cy="401" rx="12" ry="15" fill="url(#foldShadowAfter)"></ellipse>
+<ellipse cx="809.3" cy="401" rx="12" ry="15" fill="url(#foldShadowAfter)"></ellipse>
+<ellipse cx="876.0" cy="401" rx="12" ry="15" fill="url(#foldShadowAfter)"></ellipse>
+<ellipse cx="942.7" cy="401" rx="12" ry="15" fill="url(#foldShadowAfter)"></ellipse>
+<ellipse cx="1009.3" cy="401" rx="12" ry="15" fill="url(#foldShadowAfter)"></ellipse>
+</g>
+<text x="876" y="372" font-size="15" font-weight="700" fill="#1F7A46" text-anchor="middle">Ivanti Neurons</text>
+<line x1="876" y1="398" x2="876" y2="574" stroke="#2E9E5B" stroke-width="3.2" stroke-linecap="round"></line>
+<path d="M876 574 q 0 13 -13 13 q -10 0 -10 -8" fill="none" stroke="#2E9E5B" stroke-width="3.2" stroke-linecap="round"></path>
+<rect x="700" y="414" width="352" height="152" rx="14" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.6"></rect>
+<circle cx="724" cy="440" r="11" fill="#2E9E5B"></circle>
+<text x="724" y="445" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<g transform="translate(748,421) scale(0.95)" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="34" height="23" rx="3"></rect><line x1="20" y1="29" x2="20" y2="34"></line><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"></line></g>
+<text x="800" y="437" font-size="12.5" font-weight="700" fill="#1F7A46" text-anchor="start">マルチOS</text>
+<text x="800" y="455" font-size="10.5" font-weight="400" fill="#4A7A5C" text-anchor="start">Windows / macOS / Linux</text>
+<circle cx="1026" cy="440" r="8.5" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"></circle>
+<path d="M1022 440 l 3 3.2 l 5.4 -6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="724" cy="488" r="11" fill="#2E9E5B"></circle>
+<text x="724" y="493" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<g transform="translate(748,469) scale(0.95)" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="13" height="13" rx="2.5"></rect><rect x="22" y="5" width="13" height="13" rx="2.5"></rect><rect x="5" y="22" width="13" height="13" rx="2.5"></rect><rect x="22" y="22" width="13" height="13" rx="2.5"></rect></g>
+<text x="800" y="485" font-size="12.5" font-weight="700" fill="#1F7A46" text-anchor="start">サードパーティアプリ</text>
+<text x="800" y="503" font-size="10.5" font-weight="400" fill="#4A7A5C" text-anchor="start">1,000 以上のタイトル</text>
+<circle cx="1026" cy="488" r="8.5" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"></circle>
+<path d="M1022 488 l 3 3.2 l 5.4 -6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<circle cx="724" cy="536" r="11" fill="#2E9E5B"></circle>
+<text x="724" y="541" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<g transform="translate(748,517) scale(0.95)" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="22" height="22" rx="3"></rect><rect x="16" y="16" width="8" height="8" rx="1.5"></rect><path d="M15 9 V4 M25 9 V4 M15 31 V36 M25 31 V36 M9 15 H4 M9 25 H4 M31 15 H36 M31 25 H36" stroke-linecap="round"></path></g>
+<text x="800" y="533" font-size="12.5" font-weight="700" fill="#1F7A46" text-anchor="start">ドライバ・BIOS</text>
+<text x="800" y="551" font-size="10.5" font-weight="400" fill="#4A7A5C" text-anchor="start">Lenovo / Dell / HP</text>
+<circle cx="1026" cy="536" r="8.5" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"></circle>
+<path d="M1022 536 l 3 3.2 l 5.4 -6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+<line x1="716" y1="464" x2="1036" y2="464" stroke="#2E9E5B" stroke-width="1" opacity="0.28"></line>
+<line x1="716" y1="512" x2="1036" y2="512" stroke="#2E9E5B" stroke-width="1" opacity="0.28"></line>
+<text x="876" y="618" font-size="13" font-weight="700" fill="#1F7A46" text-anchor="middle">すべて 1 つのコンソールから自動で最新化</text>
+<circle cx="652" cy="649.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"></circle>
+<text x="670" y="654" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">1 つのコンソールで全体を把握できる</text>
+<circle cx="652" cy="674.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"></circle>
+<text x="670" y="679" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">更新は自動、手作業とヒアリングが不要になる</text>
+<circle cx="652" cy="699.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"></circle>
+<text x="670" y="704" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">未更新の放置がなくなり、攻撃面が縮まる</text>
+<rect x="64" y="812" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"></rect>
+<rect x="88" y="838" width="46" height="46" rx="12" fill="#F3EEFA"></rect>
+<g transform="translate(91,841) scale(0.98)" fill="none" stroke="#5B2A87" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="34" height="23" rx="3"></rect><line x1="20" y1="29" x2="20" y2="34"></line><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"></line></g>
+<text x="88" y="915" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">マルチOS</text>
+<text x="88" y="938" font-size="13" font-weight="400" fill="#5B2A87" text-anchor="start">OSごとに手段を分けない</text>
+<text x="88" y="975" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・Windows / macOS / Linux を同じ画面で管理</text>
+<text x="88" y="998" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・OSごとに別ツール・別担当を用意しなくてよい</text>
+<text x="88" y="1021" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・拠点や部門で環境が違っても一元管理できる</text>
+<text x="88" y="1044" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・適用状況をまとめて確認できる</text>
+<rect x="429" y="812" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"></rect>
+<rect x="453" y="838" width="46" height="46" rx="12" fill="#E9F5F6"></rect>
+<g transform="translate(456,841) scale(0.98)" fill="none" stroke="#0E7C86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="13" height="13" rx="2.5"></rect><rect x="22" y="5" width="13" height="13" rx="2.5"></rect><rect x="5" y="22" width="13" height="13" rx="2.5"></rect><rect x="22" y="22" width="13" height="13" rx="2.5"></rect></g>
+<text x="453" y="915" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">サードパーティアプリ</text>
+<text x="453" y="938" font-size="13" font-weight="400" fill="#0E7C86" text-anchor="start">見落としがちな侵入口をふさぐ</text>
+<text x="453" y="975" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・1,000 以上のアプリケーションに対応</text>
+<text x="453" y="998" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・ブラウザ・PDF・ランタイム等の更新を自動化</text>
+<text x="453" y="1021" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・利用者任せの「あとで更新」がなくなる</text>
+<text x="453" y="1044" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・事前検証済みのパッチで適用失敗を減らせる</text>
+<rect x="795" y="812" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"></rect>
+<rect x="819" y="838" width="46" height="46" rx="12" fill="#FCF1DC"></rect>
+<g transform="translate(822,841) scale(0.98)" fill="none" stroke="#A8720F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="22" height="22" rx="3"></rect><rect x="16" y="16" width="8" height="8" rx="1.5"></rect><path d="M15 9 V4 M25 9 V4 M15 31 V36 M25 31 V36 M9 15 H4 M9 25 H4 M31 15 H36 M31 25 H36" stroke-linecap="round"></path></g>
+<text x="819" y="915" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">ドライバ・BIOS</text>
+<text x="819" y="938" font-size="13" font-weight="400" fill="#A8720F" text-anchor="start">後回しにされがちな領域まで自動化</text>
+<text x="819" y="975" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・Lenovo / Dell / HP に対応</text>
+<text x="819" y="998" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・ベンダー純正ツールを自動で実行</text>
+<text x="819" y="1021" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・ハードウェアを棚卸しし、必要な更新だけを適用</text>
+<text x="819" y="1044" font-size="12.5" font-weight="400" fill="#444444" text-anchor="start">・脆弱性と互換性の問題を同時に解消</text>
+</svg>

@@ -32,6 +32,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/hide-section.js
+  - javascripts/image-zoom.js
 
 nav:
   - ホーム: index.md
@@ -56,6 +57,11 @@ nav:
       - Edge Intelligence: checklist/edge-intelligence.md
       - ボット: checklist/bots.md
       - エージェントのアンインストール: checklist/agent-uninstall.md
+  - 特長:
+      - 効率的なパッチ配信: features/traffic-control.md
+      - マルチOS・アプリ・ドライバ更新対応: features/patch-coverage.md
+      - パッチ優先順位と不具合パッチ混入の回避: features/patch-prioritization.md
+      - ランサムウェア対応: features/ransomware-race.md
 
 markdown_extensions:
   - admonition

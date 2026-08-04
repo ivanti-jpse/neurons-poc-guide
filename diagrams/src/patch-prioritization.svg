@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1130" width="1200" height="1130" font-family="'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic',Meiryo,sans-serif">
+<rect width="1200" height="1130" fill="#FFFFFF"/>
+<text x="600" y="84" font-size="30" font-weight="700" fill="#241B33" text-anchor="middle">CVSS だけでは、どの資産の何から直すべきか決められない</text>
+<text x="600" y="119" font-size="15" font-weight="400" fill="#6B6B7B" text-anchor="middle">RS³ で資産を絞り、VRR とエクスプロイト情報で脆弱性を選び、信頼性インサイトで安全なパッチだけを配信する</text>
+<rect x="64" y="168" width="520" height="600" rx="20" fill="#FBF1EF" stroke="#E9C6C0" stroke-width="1.5"/>
+<rect x="90" y="198" width="100" height="30" rx="14" fill="#C0392B"/>
+<text x="140" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">BEFORE</text>
+<circle cx="101" cy="249" r="11" fill="#8A8A96"/>
+<text x="101" y="254" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="120" y="254" font-size="13.5" font-weight="700" fill="#8A8A96" text-anchor="start">対象の資産</text>
+<text x="120" y="272" font-size="10.5" font-weight="400" fill="#6B6B7B" text-anchor="start">どの資産が危ないのか分からない</text>
+<g transform="translate(99.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(146.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(193.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(240.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(287.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(334.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(381.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(428.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(475.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(522.6,287.6) scale(0.72)" fill="none" stroke="#B8B8C2" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(317.5,334)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#B8B8C2" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="101" cy="371" r="11" fill="#8A8A96"/>
+<text x="101" y="376" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="120" y="376" font-size="13.5" font-weight="700" fill="#8A8A96" text-anchor="start">直すべき脆弱性</text>
+<text x="120" y="394" font-size="10.5" font-weight="400" fill="#6B6B7B" text-anchor="start">CVSS 7.0 以上だけでも年間 1 万件超 — 深刻度は現在のリスクではない</text>
+<rect x="105" y="404" width="68" height="44" rx="10" fill="#FBE7E4" stroke="#D9534F" stroke-width="1.6"/>
+<text x="139" y="420" font-size="8.5" font-weight="700" fill="#C0392B" text-anchor="middle">CVSS</text>
+<text x="139" y="440" font-size="15" font-weight="700" fill="#C0392B" text-anchor="middle">9.8</text>
+<rect x="179" y="404" width="68" height="44" rx="10" fill="#FBE7E4" stroke="#D9534F" stroke-width="1.6"/>
+<text x="213" y="420" font-size="8.5" font-weight="700" fill="#C0392B" text-anchor="middle">CVSS</text>
+<text x="213" y="440" font-size="15" font-weight="700" fill="#C0392B" text-anchor="middle">8.1</text>
+<rect x="253" y="404" width="68" height="44" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.2"/>
+<text x="287" y="420" font-size="8.5" font-weight="700" fill="#B8B8C2" text-anchor="middle">CVSS</text>
+<text x="287" y="440" font-size="15" font-weight="700" fill="#B8B8C2" text-anchor="middle">6.9</text>
+<rect x="327" y="404" width="68" height="44" rx="10" fill="#FBE7E4" stroke="#D9534F" stroke-width="1.6"/>
+<text x="361" y="420" font-size="8.5" font-weight="700" fill="#C0392B" text-anchor="middle">CVSS</text>
+<text x="361" y="440" font-size="15" font-weight="700" fill="#C0392B" text-anchor="middle">7.4</text>
+<rect x="401" y="404" width="68" height="44" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.2"/>
+<text x="435" y="420" font-size="8.5" font-weight="700" fill="#B8B8C2" text-anchor="middle">CVSS</text>
+<text x="435" y="440" font-size="15" font-weight="700" fill="#B8B8C2" text-anchor="middle">5.3</text>
+<rect x="475" y="404" width="68" height="44" rx="10" fill="#FBE7E4" stroke="#D9534F" stroke-width="1.6"/>
+<text x="509" y="420" font-size="8.5" font-weight="700" fill="#C0392B" text-anchor="middle">CVSS</text>
+<text x="509" y="440" font-size="15" font-weight="700" fill="#C0392B" text-anchor="middle">9.1</text>
+<g transform="translate(317.5,462)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#B8B8C2" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="101" cy="497" r="11" fill="#8A8A96"/>
+<text x="101" y="502" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="120" y="502" font-size="13.5" font-weight="700" fill="#8A8A96" text-anchor="start">当てるパッチ</text>
+<text x="120" y="520" font-size="10.5" font-weight="400" fill="#6B6B7B" text-anchor="start">安全に当たるかどうか判断できない</text>
+<rect x="162" y="530" width="100" height="48" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.5"/>
+<circle cx="186" cy="554" r="7.5" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.6"/>
+<path d="M183.4 551.6 q 0 -3.2 2.8 -3.2 q 2.8 0 2.8 2.6 q 0 2 -2.6 2.8 v 1.2" fill="none" stroke="#8A8A96" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="186.2" cy="558.2" r="1.1" fill="#8A8A96"/>
+<text x="204" y="559" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="start">判断不可</text>
+<rect x="274" y="530" width="100" height="48" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.5"/>
+<circle cx="298" cy="554" r="7.5" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.6"/>
+<path d="M295.4 551.6 q 0 -3.2 2.8 -3.2 q 2.8 0 2.8 2.6 q 0 2 -2.6 2.8 v 1.2" fill="none" stroke="#8A8A96" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="298.2" cy="558.2" r="1.1" fill="#8A8A96"/>
+<text x="316" y="559" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="start">判断不可</text>
+<rect x="386" y="530" width="100" height="48" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.5"/>
+<circle cx="410" cy="554" r="7.5" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.6"/>
+<path d="M407.4 551.6 q 0 -3.2 2.8 -3.2 q 2.8 0 2.8 2.6 q 0 2 -2.6 2.8 v 1.2" fill="none" stroke="#8A8A96" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="410.2" cy="558.2" r="1.1" fill="#8A8A96"/>
+<text x="428" y="559" font-size="11.5" font-weight="700" fill="#8A8A96" text-anchor="start">判断不可</text>
+<text x="324" y="622" font-size="13" font-weight="700" fill="#C0392B" text-anchor="middle">深刻度は分かっても、対象は絞れず安全性も判断できない</text>
+<path d="M95 650.5 L105 660.5 M105 650.5 L95 660.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="118" y="660" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">どの資産から手をつけるべきか分からない</text>
+<path d="M95 675.5 L105 685.5 M105 675.5 L95 685.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="118" y="685" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">実際に悪用されている脆弱性を見分けられない</text>
+<path d="M95 700.5 L105 710.5 M105 700.5 L95 710.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="118" y="710" font-size="13" font-weight="400" fill="#8A4B48" text-anchor="start">当ててみるまでパッチの不具合に気づけない</text>
+<rect x="616" y="168" width="520" height="600" rx="20" fill="#F0F8F2" stroke="#C7E3D0" stroke-width="1.5"/>
+<rect x="642" y="198" width="92" height="30" rx="14" fill="#2E9E5B"/>
+<text x="688" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">AFTER</text>
+<circle cx="653" cy="249" r="11" fill="#5B2A87"/>
+<text x="653" y="254" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="672" y="254" font-size="13.5" font-weight="700" fill="#5B2A87" text-anchor="start">RS³ で危ない資産を特定</text>
+<text x="672" y="272" font-size="10.5" font-weight="400" fill="#6B6B7B" text-anchor="start">資産ごとのリスクを数値化 — 赤い資産ほどリスクが高い</text>
+<g transform="translate(651.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(698.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(745.6,287.6) scale(0.72)" fill="none" stroke="#C0392B" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<circle cx="775" cy="290" r="4" fill="#C0392B"/>
+<g transform="translate(792.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(839.6,287.6) scale(0.72)" fill="none" stroke="#C0392B" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<circle cx="869" cy="290" r="4" fill="#C0392B"/>
+<g transform="translate(886.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(933.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(980.6,287.6) scale(0.72)" fill="none" stroke="#C0392B" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<circle cx="1010" cy="290" r="4" fill="#C0392B"/>
+<g transform="translate(1027.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<g transform="translate(1074.6,287.6) scale(0.72)" fill="none" stroke="#6FAE8C" stroke-width="2.6"><rect x="3" y="6" width="34" height="23" rx="3"/><line x1="20" y1="29" x2="20" y2="34"/><line x1="12" y1="34" x2="28" y2="34" stroke-linecap="round"/></g>
+<rect x="833" y="283" width="42" height="38" rx="8" fill="none" stroke="#5B2A87" stroke-width="2"/>
+<path d="M833 323 L 645 354 L 1107 354 L 875 323 Z" fill="#F3EEFA" opacity="0.85"/>
+<path d="M833 323 L 645 354 M875 323 L 1107 354" fill="none" stroke="#B9A3D9" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="1107" y="278" font-size="10" font-weight="700" fill="#5B2A87" text-anchor="end">この資産の中を見る</text>
+<circle cx="653" cy="371" r="11" fill="#0E7C86"/>
+<text x="653" y="376" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="672" y="376" font-size="13.5" font-weight="700" fill="#0E7C86" text-anchor="start">VRR とエクスプロイト情報で脆弱性を選ぶ</text>
+<text x="672" y="394" font-size="10.5" font-weight="400" fill="#6B6B7B" text-anchor="start">実際に狙われているものだけを対象にする（● = エクスプロイト確認済み）</text>
+<rect x="657" y="404" width="68" height="44" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.2"/>
+<text x="691" y="420" font-size="8.5" font-weight="700" fill="#B8B8C2" text-anchor="middle">VRR</text>
+<text x="691" y="440" font-size="15" font-weight="700" fill="#B8B8C2" text-anchor="middle">4.2</text>
+<rect x="731" y="404" width="68" height="44" rx="10" fill="#E9F5F6" stroke="#0E7C86" stroke-width="1.8"/>
+<text x="765" y="420" font-size="8.5" font-weight="700" fill="#0E7C86" text-anchor="middle">VRR</text>
+<text x="765" y="440" font-size="15" font-weight="700" fill="#0E7C86" text-anchor="middle">9.4</text>
+<circle cx="791" cy="412" r="5.5" fill="#C0392B"/>
+<rect x="805" y="404" width="68" height="44" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.2"/>
+<text x="839" y="420" font-size="8.5" font-weight="700" fill="#B8B8C2" text-anchor="middle">VRR</text>
+<text x="839" y="440" font-size="15" font-weight="700" fill="#B8B8C2" text-anchor="middle">3.8</text>
+<rect x="879" y="404" width="68" height="44" rx="10" fill="#E9F5F6" stroke="#0E7C86" stroke-width="1.8"/>
+<text x="913" y="420" font-size="8.5" font-weight="700" fill="#0E7C86" text-anchor="middle">VRR</text>
+<text x="913" y="440" font-size="15" font-weight="700" fill="#0E7C86" text-anchor="middle">9.1</text>
+<circle cx="939" cy="412" r="5.5" fill="#C0392B"/>
+<rect x="953" y="404" width="68" height="44" rx="10" fill="#FFFFFF" stroke="#B8B8C2" stroke-width="1.2"/>
+<text x="987" y="420" font-size="8.5" font-weight="700" fill="#B8B8C2" text-anchor="middle">VRR</text>
+<text x="987" y="440" font-size="15" font-weight="700" fill="#B8B8C2" text-anchor="middle">2.6</text>
+<rect x="1027" y="404" width="68" height="44" rx="10" fill="#E9F5F6" stroke="#0E7C86" stroke-width="1.8"/>
+<text x="1061" y="420" font-size="8.5" font-weight="700" fill="#0E7C86" text-anchor="middle">VRR</text>
+<text x="1061" y="440" font-size="15" font-weight="700" fill="#0E7C86" text-anchor="middle">8.7</text>
+<circle cx="1087" cy="412" r="5.5" fill="#C0392B"/>
+<g transform="translate(758.5,460)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#0E7C86" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(906.5,460)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#0E7C86" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(1054.5,460)"><path d="M6.5 0 V5.5 M2.5 3.5 L6.5 7.5 L10.5 3.5" stroke="#0E7C86" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="653" cy="497" r="11" fill="#A8720F"/>
+<text x="653" y="502" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="672" y="502" font-size="13.5" font-weight="700" fill="#A8720F" text-anchor="start">パッチ信頼性インサイトで安全性を確認</text>
+<text x="672" y="520" font-size="10.5" font-weight="400" fill="#6B6B7B" text-anchor="start">不具合の兆候があるパッチはリングで先に検証する</text>
+<rect x="719" y="530" width="92" height="48" rx="10" fill="#E4F3E9" stroke="#2E9E5B" stroke-width="1.7"/>
+<circle cx="737" cy="554" r="8" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"/>
+<path d="M733.2 554 l 2.8 3 l 5 -5.6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="751" y="550" font-size="12" font-weight="700" fill="#2E9E5B" text-anchor="start">配信</text>
+<text x="751" y="565" font-size="9.5" font-weight="400" fill="#2E9E5B" text-anchor="start">信頼性 高</text>
+<rect x="867" y="530" width="92" height="48" rx="10" fill="#E4F3E9" stroke="#2E9E5B" stroke-width="1.7"/>
+<circle cx="885" cy="554" r="8" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"/>
+<path d="M881.2 554 l 2.8 3 l 5 -5.6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="899" y="550" font-size="12" font-weight="700" fill="#2E9E5B" text-anchor="start">配信</text>
+<text x="899" y="565" font-size="9.5" font-weight="400" fill="#2E9E5B" text-anchor="start">信頼性 高</text>
+<rect x="1015" y="530" width="92" height="48" rx="10" fill="#FCF1DC" stroke="#A8720F" stroke-width="1.7"/>
+<circle cx="1033" cy="554" r="8" fill="#FFFFFF" stroke="#A8720F" stroke-width="1.8"/>
+<line x1="1030.6" y1="550.6" x2="1030.6" y2="557.4" stroke="#A8720F" stroke-width="2" stroke-linecap="round"/>
+<line x1="1035.4" y1="550.6" x2="1035.4" y2="557.4" stroke="#A8720F" stroke-width="2" stroke-linecap="round"/>
+<text x="1047" y="550" font-size="12" font-weight="700" fill="#A8720F" text-anchor="start">検証</text>
+<text x="1047" y="565" font-size="9.5" font-weight="400" fill="#A8720F" text-anchor="start">信頼性 低</text>
+<text x="876" y="622" font-size="13" font-weight="700" fill="#1F7A46" text-anchor="middle">危ない資産の、狙われている脆弱性に、安全なパッチだけを当てる</text>
+<circle cx="652" cy="655.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="670" y="660" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">対処が必要な資産を数値で特定できる</text>
+<circle cx="652" cy="680.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="670" y="685" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">悪用されている脆弱性から優先して塞げる</text>
+<circle cx="652" cy="705.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="670" y="710" font-size="13" font-weight="400" fill="#2A6B45" text-anchor="start">不具合を起こすパッチを事前に避けられる</text>
+<rect x="64" y="812" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="88" y="838" width="46" height="46" rx="12" fill="#F3EEFA"/>
+<g transform="translate(91,841) scale(0.98)" fill="none" stroke="#5B2A87" stroke-width="2"><rect x="4" y="6" width="20" height="10" rx="2.5"/><rect x="4" y="20" width="20" height="10" rx="2.5"/><circle cx="9" cy="11" r="1.3" fill="#5B2A87" stroke="none"/><circle cx="9" cy="25" r="1.3" fill="#5B2A87" stroke="none"/><path d="M30 14 l7 3 v5 c0 5 -3.5 8 -7 9.5 c-3.5 -1.5 -7 -4.5 -7 -9.5 v-5 Z" fill="#FFFFFF" stroke-linejoin="round"/><path d="M26.5 21.5 l2.5 2.5 l4.5 -5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="88" y="915" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">RS³</text>
+<text x="88" y="938" font-size="13" font-weight="400" fill="#5B2A87" text-anchor="start">どの資産が危ないかを数値で示す</text>
+<text x="88" y="975" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・資産ごとにサイバー攻撃への耐性を評価</text>
+<text x="88" y="998" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・危ない資産から順に並べて着手できる</text>
+<text x="88" y="1021" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・公開サーバと社内 PC とでは重要度が異なる</text>
+<text x="88" y="1044" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・組織全体のセキュリティポスチャを追える</text>
+<rect x="429" y="812" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="453" y="838" width="46" height="46" rx="12" fill="#E9F5F6"/>
+<g transform="translate(456,841) scale(0.98)" fill="none" stroke="#0E7C86" stroke-width="2"><path d="M6 30 A 14 14 0 1 1 34 30" stroke-linecap="round"/><line x1="20" y1="30" x2="28" y2="18" stroke-linecap="round"/><circle cx="20" cy="30" r="2.4" fill="#0E7C86" stroke="none"/></g>
+<text x="453" y="915" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">VRR</text>
+<text x="453" y="938" font-size="13" font-weight="400" fill="#0E7C86" text-anchor="start">その脆弱性が本当に危険かを測る</text>
+<text x="453" y="975" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・CVSS の深刻度ではなく今現在のリスクを可視化</text>
+<text x="453" y="998" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・悪用が始まればスコアが上がり即時パッチ配布も可能</text>
+<text x="453" y="1021" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・CVSS では中程度でも危険なものを見逃さない</text>
+<text x="453" y="1044" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・直さなくてよいものが分かり作業量が減る</text>
+<rect x="795" y="812" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="819" y="838" width="46" height="46" rx="12" fill="#FCF1DC"/>
+<g transform="translate(822,841) scale(0.98)" fill="none" stroke="#A8720F" stroke-width="2"><rect x="5" y="6" width="22" height="28" rx="3"/><line x1="10" y1="14" x2="20" y2="14" stroke-linecap="round"/><line x1="10" y1="20" x2="18" y2="20" stroke-linecap="round"/><circle cx="27" cy="26" r="8" fill="#FFFFFF"/><path d="M23.5 26 l2.5 2.6 l4.5 -5.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="819" y="915" font-size="16" font-weight="700" fill="#241B33" text-anchor="start">パッチ信頼性インサイト</text>
+<text x="819" y="938" font-size="13" font-weight="400" fill="#A8720F" text-anchor="start">不具合パッチを踏まない</text>
+<text x="819" y="975" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・公開情報から不具合の兆候を収集</text>
+<text x="819" y="998" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・リング配布で一部の端末から段階的に検証</text>
+<text x="819" y="1021" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・適用失敗と業務影響を未然に回避</text>
+<text x="819" y="1044" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・万が一導入してしまった不具合パッチはロールバック</text>
+</svg>

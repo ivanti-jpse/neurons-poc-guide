@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1078" width="1200" height="1078" font-family="'Noto Sans JP','Noto Sans CJK JP','Hiragino Sans','Yu Gothic',Meiryo,sans-serif">
+<defs><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#FBE7E4"/><rect x="4" width="4" height="8" fill="#EFA9A2"/></pattern></defs>
+<rect width="1200" height="1078" fill="#FFFFFF"/>
+<text x="600" y="84" font-size="30" font-weight="700" fill="#241B33" text-anchor="middle">狙われはじめてから塞ぐまでの時間が、そのまま被害の確率になる</text>
+<text x="600" y="119" font-size="15" font-weight="400" fill="#6B6B7B" text-anchor="middle">攻撃者の動きは変えられない。変えられるのは、気づいてから塞ぎ終えるまでの速さだけ</text>
+<rect x="64" y="168" width="520" height="548" rx="20" fill="#FBF1EF" stroke="#E9C6C0" stroke-width="1.5"/>
+<rect x="90" y="198" width="100" height="30" rx="14" fill="#C0392B"/>
+<text x="140" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">BEFORE</text>
+<line x1="106" y1="258" x2="106" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="106" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">脆弱性公開</text>
+<line x1="184" y1="258" x2="184" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="184.48000000000002" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">24 時間</text>
+<line x1="289" y1="258" x2="289" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="289.12" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">48 時間</text>
+<line x1="542" y1="258" x2="542" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="542.0" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">1 か月〜</text>
+<text x="90" y="312" font-size="11.5" font-weight="700" fill="#4A4552" text-anchor="start">攻撃者</text>
+<line x1="106" y1="332" x2="542" y2="332" stroke="#4A4552" stroke-width="2"/>
+<line x1="542" y1="332" x2="535.1" y2="336.1" stroke="#4A4552" stroke-width="2" stroke-linecap="round"/>
+<line x1="542" y1="332" x2="535.1" y2="327.9" stroke="#4A4552" stroke-width="2" stroke-linecap="round"/>
+<rect x="314" y="319" width="20" height="26" fill="#FBF1EF"/>
+<path d="M319 319 q 7 6.5 0 13 q -7 6.5 0 13" fill="none" stroke="#4A4552" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M329 319 q 7 6.5 0 13 q -7 6.5 0 13" fill="none" stroke="#4A4552" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="106" cy="332" r="5.5" fill="#4A4552"/>
+<circle cx="184" cy="332" r="5.5" fill="#4A4552"/>
+<text x="184.48000000000002" y="358" font-size="10" font-weight="400" fill="#4A4552" text-anchor="middle">攻撃コード</text>
+<circle cx="289" cy="332" r="5.5" fill="#4A4552"/>
+<rect x="223" y="262" width="132" height="25" rx="8" fill="#FBF1EF" stroke="#C0392B" stroke-width="1.5"/>
+<path d="M280 287 L298 287 L289 296 Z" fill="#C0392B"/>
+<path d="M283 286 L295 286 L289 292 Z" fill="#FBF1EF"/>
+<text x="289.12" y="279" font-size="10" font-weight="700" fill="#C0392B" text-anchor="middle">AI により短期間で武器化</text>
+<g transform="translate(280.12,303.0) scale(1.0)" fill="none" stroke="#C0392B" stroke-width="1.7"><path d="M2 10 a7 7 0 1 1 14 0 v3 a2 2 0 0 1 -2 2 h-1 v2 h-8 v-2 h-1 a2 2 0 0 1 -2 -2 Z" stroke-linejoin="round"/><circle cx="6.4" cy="9.4" r="1.9" fill="#C0392B" stroke="none"/><circle cx="11.6" cy="9.4" r="1.9" fill="#C0392B" stroke="none"/></g>
+<text x="289.12" y="358" font-size="10" font-weight="700" fill="#C0392B" text-anchor="middle">ランサムウェアで悪用開始</text>
+<text x="90" y="406" font-size="11.5" font-weight="700" fill="#4A4552" text-anchor="start">自組織</text>
+<rect x="106" y="416" width="110" height="30" rx="8" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.5"/>
+<text x="161.0" y="435.0" font-size="9.5" font-weight="700" fill="#8A8A96" text-anchor="middle">次の定時スキャン待ち</text>
+<rect x="222" y="416" width="84" height="30" rx="8" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.5"/>
+<text x="264.0" y="435.0" font-size="9.5" font-weight="700" fill="#8A8A96" text-anchor="middle">CVSS 順に確認</text>
+<rect x="314" y="416" width="20" height="30" fill="#FBF1EF"/>
+<path d="M319 416 q 7 7.5 0 15 q -7 7.5 0 15" fill="none" stroke="#B8B8C2" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M329 416 q 7 7.5 0 15 q -7 7.5 0 15" fill="none" stroke="#B8B8C2" stroke-width="1.6" stroke-linecap="round"/>
+<rect x="336" y="416" width="92" height="30" rx="8" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.5"/>
+<text x="382.0" y="435.0" font-size="9.5" font-weight="700" fill="#8A8A96" text-anchor="middle">運用部門の着手待ち</text>
+<rect x="434" y="416" width="40" height="30" rx="8" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.5"/>
+<text x="454.0" y="435.0" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">検証</text>
+<rect x="480" y="416" width="40" height="30" rx="8" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.5"/>
+<text x="500.0" y="435.0" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">配信</text>
+<circle cx="535" cy="431" r="9" fill="#FFFFFF" stroke="#8A8A96" stroke-width="1.8"/>
+<path d="M530 431 l 3 3.2 l 6 -6.6" fill="none" stroke="#8A8A96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="535" y="462" font-size="10.5" font-weight="700" fill="#8A8A96" text-anchor="middle">塞ぎ終える</text>
+<line x1="289.12" y1="488" x2="535" y2="488" stroke="#C0392B" stroke-width="1.8"/>
+<line x1="289.12" y1="488" x2="295.1" y2="484.4" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="289.12" y1="488" x2="295.1" y2="491.6" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="535" y1="488" x2="529.0" y2="491.6" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="535" y1="488" x2="529.0" y2="484.4" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="289.12" y1="483" x2="289.12" y2="493" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="535" y1="483" x2="535" y2="493" stroke="#C0392B" stroke-width="1.8" stroke-linecap="round"/>
+<text x="412.06" y="510" font-size="11" font-weight="700" fill="#C0392B" text-anchor="middle">先を越されている期間</text>
+<rect x="90" y="518" width="468" height="54" rx="12" fill="#FBE7E4" stroke="#D9534F" stroke-width="1.5"/>
+<g transform="translate(104.1,535.1) scale(1.1)" fill="none" stroke="#C0392B" stroke-width="1.7"><path d="M2 10 a7 7 0 1 1 14 0 v3 a2 2 0 0 1 -2 2 h-1 v2 h-8 v-2 h-1 a2 2 0 0 1 -2 -2 Z" stroke-linejoin="round"/><circle cx="6.4" cy="9.4" r="1.9" fill="#C0392B" stroke="none"/><circle cx="11.6" cy="9.4" r="1.9" fill="#C0392B" stroke="none"/></g>
+<text x="136" y="541" font-size="12.5" font-weight="700" fill="#C0392B" text-anchor="start">狙われはじめたことに気づく手段がない</text>
+<text x="136" y="561" font-size="11" font-weight="400" fill="#C0392B" text-anchor="start">定時スキャンを待ち、SecOps からパッチ運用担当への引き継ぎを待つ</text>
+<path d="M95 598.5 L105 608.5 M105 598.5 L95 608.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="118" y="608" font-size="12.5" font-weight="400" fill="#8A4B48" text-anchor="start">ランサムウェアに使われていることが分からない</text>
+<path d="M95 623.5 L105 633.5 M105 623.5 L95 633.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="118" y="633" font-size="12.5" font-weight="400" fill="#8A4B48" text-anchor="start">待っている間も攻撃者の準備だけが進む</text>
+<path d="M95 648.5 L105 658.5 M105 648.5 L95 658.5" stroke="#C0392B" stroke-width="1.9" stroke-linecap="round"/>
+<text x="118" y="658" font-size="12.5" font-weight="400" fill="#8A4B48" text-anchor="start">月次のパッチ運用では構造的に間に合わない</text>
+<rect x="616" y="168" width="520" height="548" rx="20" fill="#F0F8F2" stroke="#C7E3D0" stroke-width="1.5"/>
+<rect x="642" y="198" width="92" height="30" rx="14" fill="#2E9E5B"/>
+<text x="688" y="218" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">AFTER</text>
+<line x1="658" y1="258" x2="658" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="658" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">脆弱性公開</text>
+<line x1="736" y1="258" x2="736" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="736.48" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">24 時間</text>
+<line x1="841" y1="258" x2="841" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="841.12" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">48 時間</text>
+<line x1="1094" y1="258" x2="1094" y2="422" stroke="#B8B8C2" stroke-width="1" stroke-dasharray="4 5" opacity="0.7"/>
+<text x="1094.0" y="250" font-size="10" font-weight="700" fill="#8A8A96" text-anchor="middle">1 か月〜</text>
+<text x="642" y="312" font-size="11.5" font-weight="700" fill="#4A4552" text-anchor="start">攻撃者</text>
+<line x1="658" y1="332" x2="1094" y2="332" stroke="#4A4552" stroke-width="2"/>
+<line x1="1094" y1="332" x2="1087.1" y2="336.1" stroke="#4A4552" stroke-width="2" stroke-linecap="round"/>
+<line x1="1094" y1="332" x2="1087.1" y2="327.9" stroke="#4A4552" stroke-width="2" stroke-linecap="round"/>
+<rect x="866" y="319" width="20" height="26" fill="#F0F8F2"/>
+<path d="M871 319 q 7 6.5 0 13 q -7 6.5 0 13" fill="none" stroke="#4A4552" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M881 319 q 7 6.5 0 13 q -7 6.5 0 13" fill="none" stroke="#4A4552" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="658" cy="332" r="5.5" fill="#4A4552"/>
+<circle cx="736" cy="332" r="5.5" fill="#4A4552"/>
+<text x="736.48" y="358" font-size="10" font-weight="400" fill="#4A4552" text-anchor="middle">攻撃コード</text>
+<circle cx="841" cy="332" r="5.5" fill="#4A4552"/>
+<rect x="775" y="262" width="132" height="25" rx="8" fill="#F0F8F2" stroke="#C0392B" stroke-width="1.5"/>
+<path d="M832 287 L850 287 L841 296 Z" fill="#C0392B"/>
+<path d="M835 286 L847 286 L841 292 Z" fill="#F0F8F2"/>
+<text x="841.12" y="279" font-size="10" font-weight="700" fill="#C0392B" text-anchor="middle">AI により短期間で武器化</text>
+<g transform="translate(832.12,303.0) scale(1.0)" fill="none" stroke="#C0392B" stroke-width="1.7"><path d="M2 10 a7 7 0 1 1 14 0 v3 a2 2 0 0 1 -2 2 h-1 v2 h-8 v-2 h-1 a2 2 0 0 1 -2 -2 Z" stroke-linejoin="round"/><circle cx="6.4" cy="9.4" r="1.9" fill="#C0392B" stroke="none"/><circle cx="11.6" cy="9.4" r="1.9" fill="#C0392B" stroke="none"/></g>
+<text x="841.12" y="358" font-size="10" font-weight="700" fill="#C0392B" text-anchor="middle">ランサムウェアで悪用開始</text>
+<text x="642" y="406" font-size="11.5" font-weight="700" fill="#4A4552" text-anchor="start">自組織</text>
+<path d="M736 340 V 404" stroke="#C0392B" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="736.48" y1="410" x2="732.4" y2="403.1" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+<line x1="736.48" y1="410" x2="740.6" y2="403.1" stroke="#C0392B" stroke-width="2" stroke-linecap="round"/>
+<text x="748.48" y="390" font-size="10" font-weight="700" fill="#C0392B" text-anchor="start">ランサムウェア関連と判定</text>
+<rect x="736.48" y="416" width="104.63999999999999" height="30" rx="8" fill="#E4F3E9" stroke="#2E9E5B" stroke-width="1.5"/>
+<text x="788.8" y="435.0" font-size="10.5" font-weight="700" fill="#2E9E5B" text-anchor="middle">ゼロデイ配信</text>
+<circle cx="856" cy="431" r="9" fill="#FFFFFF" stroke="#2E9E5B" stroke-width="1.8"/>
+<path d="M852 431 l 3 3.2 l 6 -6.6" fill="none" stroke="#2E9E5B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="856.12" y="462" font-size="10.5" font-weight="700" fill="#1F7A46" text-anchor="middle">塞ぎ終える</text>
+<rect x="642" y="518" width="468" height="54" rx="12" fill="#E4F3E9" stroke="#2E9E5B" stroke-width="1.5"/>
+<circle cx="666" cy="545" r="9" fill="none" stroke="#1F7A46" stroke-width="1.8"/>
+<path d="M661.5 545 l3 3.2 l6 -6.6" fill="none" stroke="#1F7A46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="688" y="541" font-size="12.5" font-weight="700" fill="#1F7A46" text-anchor="start">ランサムウェア関連と判明した時点で、そのまま塞げる</text>
+<text x="688" y="561" font-size="11" font-weight="400" fill="#2A6B45" text-anchor="start">ランサムウェア関連は検証を待たず、即時配布に切り替える</text>
+<circle cx="652" cy="603.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="670" y="608" font-size="12.5" font-weight="400" fill="#2A6B45" text-anchor="start">ランサムウェア関連と判明した時点で動ける</text>
+<circle cx="652" cy="628.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="670" y="633" font-size="12.5" font-weight="400" fill="#2A6B45" text-anchor="start">人を介した引き継ぎが工程から消える</text>
+<circle cx="652" cy="653.5" r="5" fill="none" stroke="#2E9E5B" stroke-width="1.6"/>
+<text x="670" y="658" font-size="12.5" font-weight="400" fill="#2A6B45" text-anchor="start">緊急時は検証を待たず即時配布に切り替えられる</text>
+<rect x="64" y="760" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="88" y="786" width="46" height="46" rx="12" fill="#F3EEFA"/>
+<g transform="translate(91,789) scale(0.98)" fill="none" stroke="#5B2A87" stroke-width="2"><circle cx="20" cy="20" r="15"/><circle cx="20" cy="20" r="8"/><circle cx="20" cy="20" r="2" fill="#5B2A87" stroke="none"/><line x1="20" y1="20" x2="31" y2="10" stroke-linecap="round"/></g>
+<text x="88" y="863" font-size="15" font-weight="700" fill="#241B33" text-anchor="start">ランサムウェア悪用中の脆弱性が分かる</text>
+<text x="88" y="886" font-size="13" font-weight="400" fill="#5B2A87" text-anchor="start">攻撃者の動きが対処の合図になる</text>
+<text x="88" y="923" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・ランサムウェアに悪用中かどうかを直接フラグ表示</text>
+<text x="88" y="946" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・自社の脅威リサーチがデータの裏付け</text>
+<text x="88" y="969" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・スコアではなく脅威の動きが起点になる</text>
+<text x="88" y="992" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・定時スキャンを待たずに動き出せる</text>
+<rect x="429" y="760" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="453" y="786" width="46" height="46" rx="12" fill="#E9F5F6"/>
+<g transform="translate(456,789) scale(0.98)" fill="none" stroke="#0E7C86" stroke-width="2"><circle cx="9" cy="20" r="6"/><circle cx="31" cy="20" r="6"/><line x1="15" y1="20" x2="25" y2="20" stroke-linecap="round"/><line x1="20" y1="8" x2="20" y2="32" stroke-linecap="round" stroke-dasharray="3 3"/></g>
+<text x="453" y="863" font-size="15" font-weight="700" fill="#241B33" text-anchor="start">脆弱性管理からパッチ管理がシームレス</text>
+<text x="453" y="886" font-size="13" font-weight="400" fill="#0E7C86" text-anchor="start">止まる時間をつくらない</text>
+<text x="453" y="923" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・危険と判定した対象をそのまま配信対象にできる</text>
+<text x="453" y="946" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・脆弱性一覧の取りまとめが不要になる</text>
+<text x="453" y="969" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・部門をまたぐ受け渡しが工程から消える</text>
+<text x="453" y="992" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・対処後の状態を同じ画面で確認できる</text>
+<rect x="795" y="760" width="341" height="268" rx="16" fill="#FFFFFF" stroke="#E3DFEC" stroke-width="1.5"/>
+<rect x="819" y="786" width="46" height="46" rx="12" fill="#FCF1DC"/>
+<g transform="translate(822,789) scale(0.98)" fill="none" stroke="#A8720F" stroke-width="2"><circle cx="20" cy="20" r="15" stroke-dasharray="6 5"/><path d="M13 20 l5 5 l9 -10" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="819" y="863" font-size="15" font-weight="700" fill="#241B33" text-anchor="start">緊急時は即時配布に切り替える</text>
+<text x="819" y="886" font-size="13" font-weight="400" fill="#A8720F" text-anchor="start">平時と有事で運用を変える</text>
+<text x="819" y="923" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・平時はリング配布で段階的に検証を挟む</text>
+<text x="819" y="946" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・ランサムウェア関連は検証を待たず即時配布</text>
+<text x="819" y="969" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・リスクに応じて対応方針を自動化</text>
+<text x="819" y="992" font-size="12" font-weight="400" fill="#444444" text-anchor="start">・万が一のときはロールバックで戻せる</text>
+</svg>
