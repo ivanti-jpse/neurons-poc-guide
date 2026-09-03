@@ -41,6 +41,7 @@ nav:
       - プラットフォーム要件: prerequisites/platform-requirements.md
       - パッチ要件: prerequisites/patch-requirements.md
       - ブラウザ要件: prerequisites/browser-requirements.md
+      - その他: prerequisites/other-requirements.md
   - 設定手順:
       - エージェントのインストール: neurons/agent-install.md
       - パッチ管理: neurons/patch-management.md
