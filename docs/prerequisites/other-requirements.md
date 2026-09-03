@@ -13,10 +13,35 @@
 
 ## ウイルス対策サービスの除外設定
 
-ウイルス対策/EDR 製品のリアルタイム スキャン対象に Neurons Agent のインストール フォルダやプロセスが含まれていると、動作の遅延や誤検知の原因になることがあります。
+ウイルス対策/EDR 製品のリアルタイム スキャン対象に Neurons Agent のインストール フォルダやプロセスが含まれていると、動作の不安定化や誤検知の原因になることがあります。
 
 !!! info "参照元"
-    - [Folders and files for the Neurons agent to exclude](https://hub.ivanti.com/s/article/Folders-and-files-for-the-Neurons-agent-to-exlude)
+    - [Folders and files for the Neurons agent to exclude](https://hub.ivanti.com/s/article/Folders-and-files-for-the-Neurons-agent-to-exlude)(Ivanti カスタマー ログインが必要なページのため、リンク先には Ivanti アカウントでのログイン後にアクセスしてください)
 
-!!! warning "アクセス制限について"
-    上記 KB 記事は Ivanti カスタマー ログインが必要なページのため、本ページ執筆時点では具体的な除外フォルダ・ファイルのパスを本文中に転記できていません。ログイン可能なアカウントで記事を開き、記載されている除外対象を確認したうえで、対象デバイスのウイルス対策/EDR 製品に除外設定を行ってください。
+以下のフォルダを、ウイルス対策/EDR 製品の除外(スキャン対象外)設定に追加してください。まずはフォルダ単位で除外し、それでも改善しない場合に個別の実行ファイルを除外(ホワイトリスト登録)する順番が推奨されています。
+
+=== "Windows"
+
+    **メイン実行ファイルの格納場所**
+
+    - `C:\Program Files\Ivanti\Ivanti Cloud Agent`
+
+    **設定/ログ情報の格納場所**
+
+    - `C:\ProgramData\Ivanti`
+    - `C:\ProgramData\Landesk`
+
+=== "Linux"
+
+    **実行ファイル/設定/ログ情報の格納場所**
+
+    - `/opt/ivanti/cloudagent`
+
+=== "macOS"
+
+    **実行ファイル/設定/ログ情報の格納場所**
+
+    - `/usr/local/com.ivanti.cloud.agent/IvantiAgent/`
+
+!!! note
+    除外対象のフォルダやファイルは、デバイスに割り当てられているポリシーや Neurons Agent のバージョンによって異なる場合があります。上記の推奨設定を適用しても改善しない場合は、ウイルス対策/EDR ベンダーのサポートにも確認してください。
