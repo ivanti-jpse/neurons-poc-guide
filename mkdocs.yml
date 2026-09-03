@@ -63,6 +63,7 @@ nav:
       - マルチOS・アプリ・ドライバ更新対応: features/patch-coverage.md
       - パッチ優先順位と不具合パッチ混入の回避: features/patch-prioritization.md
       - ランサムウェア対応: features/ransomware-race.md
+      - 予測修復: features/predictive-remediation.md
 
 markdown_extensions:
   - admonition
